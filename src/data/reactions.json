@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "appel",
+    "name": "Appel Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Alcohol + PPh₃ + CX₄",
+      "product_label": "Alkyl Halide",
+      "conditions": "PPh₃, CCl₄ (or CBr₄ / CI₄), CH₂Cl₂, rt",
+      "display_label": "R-OH → R-X"
+    },
+    "metadata": {
+      "mechanism": "SN2 with inversion; chlorosulfonium/phosphonium activation of alcohol oxygen",
+      "retrosynthetic_cue": "Alkyl halide from alcohol with inversion of configuration",
+      "tags": [
+        "halogenation",
+        "alcohol activation",
+        "phosphorus chemistry",
+        "SN2"
+      ],
+      "summary": "An alcohol is converted to an alkyl halide (Cl, Br, or I) using triphenylphosphine and a tetrahalomethane (CCl₄, CBr₄, or CHI₃/I₂). The reaction proceeds with inversion of configuration at the carbon centre and generates triphenylphosphine oxide as a by-product."
+    },
+    "svg": {
+      "reactants": "name_rxns/appel_reactants.svg",
+      "product": "name_rxns/appel_products.svg"
+    }
+  },
+  {
+    "id": "baeyer-villiger",
+    "name": "Baeyer–Villiger Oxidation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Ketone (or Aldehyde) + Peracid",
+      "product_label": "Ester (or Lactone / Formate)",
+      "conditions": "mCPBA or Oxone, CH₂Cl₂ or buffered aqueous solvent",
+      "display_label": "Ketone → Ester"
+    },
+    "metadata": {
+      "mechanism": "Nucleophilic addition of peracid to carbonyl, then Criegee rearrangement (1,2-migration) with loss of carboxylate",
+      "retrosynthetic_cue": "Ester or lactone; disconnection at C–O bond adjacent to carbonyl",
+      "tags": [
+        "oxidation",
+        "peracid",
+        "Criegee rearrangement",
+        "1,2-migration",
+        "ester synthesis"
+      ],
+      "summary": "A ketone (or aldehyde) is oxidised to an ester (or lactone/formate) by a peracid such as mCPBA or peracetic acid. The mechanism involves nucleophilic addition of the peracid to the carbonyl to form a Criegee intermediate, followed by a concerted 1,2-carbon migration with expulsion of the carboxylate leaving group. Migratory aptitude follows: tertiary > secondary > aryl > primary."
+    },
+    "svg": {
+      "reactants": "name_rxns/baeyer-villiger_reactants.svg",
+      "product": "name_rxns/baeyer-villiger_products.svg"
+    }
+  },
+  {
+    "id": "bartoli-indole",
+    "name": "Bartoli Indole Synthesis",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "ortho-Substituted Nitroarene + Vinyl Grignard (3 equiv.)",
+      "product_label": "7-Substituted Indole",
+      "conditions": "THF, −40 °C, then NH₄Cl(aq) workup",
+      "display_label": "2-R-C₆H₃NO₂ + CH₂=CHMgBr → 7-R-indole"
+    },
+    "metadata": {
+      "mechanism": "Grignard addition to nitro oxygen, elimination to nitroso, second Grignard addition, [3,3]-sigmatropic rearrangement, intramolecular cyclisation",
+      "retrosynthetic_cue": "7-Substituted indole; ortho-substituted nitro precursor required",
+      "tags": [
+        "indole synthesis",
+        "Grignard",
+        "nitroarene",
+        "[3,3]-sigmatropic",
+        "heterocycle"
+      ],
+      "summary": "ortho-Substituted nitroarenes react with three equivalents of a vinyl Grignard reagent at −40 °C in THF to give 7-substituted indoles. The mechanism involves successive Grignard additions to the nitro group, a [3,3]-sigmatropic (Claisen-type) rearrangement to give an aldehyde intermediate, and intramolecular cyclisation. An ortho-substituent is essential for successful reaction."
+    },
+    "svg": {
+      "reactants": "name_rxns/bartoli-indole_reactants.svg",
+      "product": "name_rxns/bartoli-indole_products.svg"
+    }
+  },
+  {
+    "id": "baylis-hillman",
+    "name": "Baylis–Hillman Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Activated Alkene + Electrophile (Aldehyde or Imine)",
+      "product_label": "α-Methylene-β-functionalised Carbonyl Compound",
+      "conditions": "DABCO (cat.) or QUINUCLIDINE (cat.), neat or polar solvent, rt (slow)",
+      "display_label": "CH₂=CH-EWG + R¹-C(=Y)-R² → R¹R²C(YH)-C(=CH₂)-EWG"
+    },
+    "metadata": {
+      "mechanism": "Nucleophilic tertiary amine adds 1,4 to activated alkene; resulting zwitterion attacks the Y-electrophile; [1,2]-Wittig-type proton transfer and elimination",
+      "retrosynthetic_cue": "Allylic alcohol or amine bearing an electron-withdrawing group at the α-position",
+      "tags": [
+        "C–C bond formation",
+        "aldol-type",
+        "organocatalysis",
+        "DABCO",
+        "allylic alcohol",
+        "allylic amine",
+        "aza-Baylis-Hillman"
+      ],
+      "summary": "An activated alkene (acrylate, acrylonitrile, vinyl ketone) reacts with an electrophile (where Y = O for aldehydes/ketones or Y = NR for imines) in the presence of a tertiary amine catalyst (typically DABCO) to give an α-methylene-β-functionalised carbonyl compound. The reaction forms a new C–C bond and simultaneously installs an allylic alcohol or amine functionality. Reactions are often slow at room temperature."
+    },
+    "svg": {
+      "reactants": "name_rxns/baylis-hillman_reactants.svg",
+      "product": "name_rxns/baylis-hillman_products.svg"
+    }
+  },
+  {
+    "id": "beckmann",
+    "name": "Beckmann Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Oxime",
+      "product_label": "Amide (or Lactam)",
+      "conditions": "H₂SO₄ (conc.), PCl₅, SOCl₂, or Eaton's reagent; Δ",
+      "display_label": "R-C(=NOH)-R' → R-CO-NH-R'"
+    },
+    "metadata": {
+      "mechanism": "Acid-catalysed activation of oxime OH; anti-periplanar 1,2-migration of group anti to leaving group; trapping of nitrilium by water",
+      "retrosynthetic_cue": "Amide or lactam; ring expansion of cyclic ketones via cyclic oximes",
+      "tags": [
+        "rearrangement",
+        "1,2-migration",
+        "oxime",
+        "amide synthesis",
+        "ring expansion",
+        "acid catalysis"
+      ],
+      "summary": "An oxime is converted to an amide (or lactam from a cyclic ketone) under acidic conditions by a 1,2-migration. The group that migrates is the one anti-periplanar to the departing OH (as water or its activated equivalent), giving the product where the migrating group is now bonded to nitrogen."
+    },
+    "svg": {
+      "reactants": "name_rxns/beckmann_reactants.svg",
+      "product": "name_rxns/beckmann_products.svg"
+    }
+  },
+  {
+    "id": "biginelli",
+    "name": "Biginelli Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aldehyde + Ethyl Acetoacetate + Urea (or Thiourea)",
+      "product_label": "3,4-Dihydropyrimidin-2(1H)-one (DHPM)",
+      "conditions": "HCl (cat.) or Lewis acid (BF₃·OEt₂, etc.), EtOH, Δ",
+      "display_label": "RCHO + CH₃COCH₂CO₂Et + (NH₂)₂CO → DHPM"
+    },
+    "metadata": {
+      "mechanism": "Acid-catalysed Knoevenagel condensation followed by hetero Diels–Alder, or alternatively via acyliminium ion pathway; mechanistic debate ongoing",
+      "retrosynthetic_cue": "3,4-Dihydropyrimidine-2-one (DHPM) scaffold",
+      "tags": [
+        "multicomponent reaction",
+        "MCR",
+        "heterocycle synthesis",
+        "pyrimidine",
+        "three-component",
+        "acid catalysis"
+      ],
+      "summary": "A one-pot, acid-catalysed three-component condensation of an aldehyde, a β-ketoester (ethyl acetoacetate), and urea (or thiourea) to furnish 3,4-dihydropyrimidinones (DHPMs). DHPMs are of broad pharmacological interest. The precise mechanism (iminium vs. Knoevenagel pathway) remains debated in the literature."
+    },
+    "svg": {
+      "reactants": "name_rxns/biginelli_reactants.svg",
+      "product": "name_rxns/biginelli_products.svg"
+    }
+  },
+  {
+    "id": "birch",
+    "name": "Birch Reduction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aromatic Ring",
+      "product_label": "1,4-Cyclohexadiene",
+      "conditions": "Na (or Li), liq. NH₃, ROH (proton source), −33 °C",
+      "display_label": "ArH → 1,4-cyclohexadiene"
+    },
+    "metadata": {
+      "mechanism": "Dissolving-metal reduction; stepwise electron transfer from alkali metal to aromatic ring, protonation by alcohol, second electron transfer, second protonation",
+      "retrosynthetic_cue": "1,4-Cyclohexadiene; useful for partial dearomatisation",
+      "tags": [
+        "reduction",
+        "dissolving metal",
+        "dearomatisation",
+        "electron transfer",
+        "alkali metal"
+      ],
+      "summary": "Aromatic compounds are reduced to 1,4-cyclohexadienes using alkali metals (Na or Li) dissolved in liquid ammonia in the presence of a proton source (t-BuOH or EtOH). Electron-donating substituents direct reduction to the unsubstituted positions (1,4-positions relative to substituent); electron-withdrawing substituents direct reduction to the ipso/ortho positions."
+    },
+    "svg": {
+      "reactants": "name_rxns/birch_reactants.svg",
+      "product": "name_rxns/birch_products.svg"
+    }
+  },
+  {
+    "id": "buchwald-hartwig",
+    "name": "Buchwald–Hartwig Amination",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Aryl Halide (or Triflate) + Amine",
+      "product_label": "Arylamine",
+      "conditions": "Pd₂(dba)₃ or Pd(OAc)₂, bidentate phosphine ligand (BINAP, DPPF, etc.), base (Cs₂CO₃, NaOtBu), toluene or dioxane, Δ",
+      "display_label": "Ar-X + HNR₂ → Ar-NR₂"
+    },
+    "metadata": {
+      "mechanism": "Palladium(0)/Pd(II) catalytic cycle: oxidative addition of Ar–X, coordination and deprotonation of amine (transmetalation), reductive elimination to form C–N bond",
+      "retrosynthetic_cue": "Diarylamine or arylalkylamine; C–N bond disconnection at arene",
+      "tags": [
+        "cross-coupling",
+        "C–N bond formation",
+        "palladium catalysis",
+        "transition metal catalysis",
+        "amine synthesis"
+      ],
+      "summary": "A palladium-catalysed coupling of aryl halides (or triflates) with primary or secondary amines to form arylamines. The catalytic cycle proceeds through oxidative addition, amine coordination/deprotonation, and reductive elimination. Choice of phosphine ligand is critical for reactivity and selectivity."
+    },
+    "svg": {
+      "reactants": "name_rxns/buchwald-hartwig_reactants.svg",
+      "product": "name_rxns/buchwald-hartwig_products.svg"
+    }
+  },
+  {
+    "id": "cannizzaro",
+    "name": "Cannizzaro Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Non-enolisable Aldehyde (2 equiv.)",
+      "product_label": "Carboxylic Acid Salt + Primary Alcohol",
+      "conditions": "Concentrated NaOH (or KOH), aqueous, rt or Δ",
+      "display_label": "2 RCHO → RCO₂⁻ + RCH₂OH"
+    },
+    "metadata": {
+      "mechanism": "Hydride transfer: hydroxide addition to one aldehyde gives tetrahedral alkoxide, which transfers hydride to a second aldehyde molecule",
+      "retrosynthetic_cue": "Equimolar mixture of acid and primary alcohol from a single aldehyde",
+      "tags": [
+        "disproportionation",
+        "redox",
+        "hydride transfer",
+        "base-mediated",
+        "non-enolisable aldehyde"
+      ],
+      "summary": "Non-enolisable aldehydes (e.g., formaldehyde, benzaldehyde) undergo disproportionation under concentrated base: one equivalent is oxidised to the carboxylate, while the other is reduced to the primary alcohol, via an intramolecular hydride transfer mechanism."
+    },
+    "svg": {
+      "reactants": "name_rxns/cannizzaro_reactants.svg",
+      "product": "name_rxns/cannizzaro_products.svg"
+    }
+  },
+  {
+    "id": "claisen-condensation",
+    "name": "Claisen Condensation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Two Esters (or Ester + Ketone)",
+      "product_label": "β-Ketoester (or 1,3-Diketone)",
+      "conditions": "NaOEt (1 equiv. base), EtOH, Δ",
+      "display_label": "2 RCH₂CO₂Et → RCH₂COCHCO₂Et + EtOH"
+    },
+    "metadata": {
+      "mechanism": "Base-mediated α-deprotonation of one ester; nucleophilic acyl substitution on a second ester with loss of alkoxide; thermodynamic enolate drives equilibrium",
+      "retrosynthetic_cue": "β-Ketoester; Claisen disconnection at the Cα–CO bond",
+      "tags": [
+        "condensation",
+        "C–C bond formation",
+        "enolate",
+        "β-ketoester",
+        "acyl substitution"
+      ],
+      "summary": "Two esters (or an ester and a ketone) are condensed under basic conditions (typically sodium ethoxide) to give a β-ketoester or 1,3-diketone. The reaction is driven to completion by deprotonation of the more acidic product. The intramolecular version is the Dieckmann condensation."
+    },
+    "svg": {
+      "reactants": "name_rxns/claisen-condensation_reactants.svg",
+      "product": "name_rxns/claisen-condensation_products.svg"
+    }
+  },
+  {
+    "id": "claisen-rearrangement",
+    "name": "Claisen Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Allyl Vinyl Ether (or Allyl Aryl Ether)",
+      "product_label": "γ,δ-Unsaturated Carbonyl Compound (or ortho-allylphenol)",
+      "conditions": "Δ (thermal), typically 150–200 °C; no catalyst required",
+      "display_label": "Allyl vinyl ether → γ,δ-unsaturated carbonyl"
+    },
+    "metadata": {
+      "mechanism": "Concerted [3,3]-sigmatropic rearrangement via chair-like transition state",
+      "retrosynthetic_cue": "γ,δ-Unsaturated carbonyl compound; [3,3] bond disconnection",
+      "tags": [
+        "pericyclic",
+        "[3,3]-sigmatropic",
+        "thermal",
+        "concerted",
+        "rearrangement"
+      ],
+      "summary": "Allyl vinyl ethers (or allyl aryl ethers in the aromatic Claisen) undergo a concerted [3,3]-sigmatropic rearrangement upon heating to give γ,δ-unsaturated carbonyl compounds (or ortho-allyl phenols after tautomerisation). The reaction proceeds through a chair-like six-membered transition state and is highly stereospecific."
+    },
+    "svg": {
+      "reactants": "name_rxns/claisen-rearrangement_reactants.svg",
+      "product": "name_rxns/claisen-rearrangement_products.svg"
+    }
+  },
+  {
+    "id": "clemmensen",
+    "name": "Clemmensen Reduction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Aldehyde or Ketone",
+      "product_label": "Alkane (methylene)",
+      "conditions": "Zn(Hg) amalgam, conc. HCl, Δ (aqueous acidic conditions)",
+      "display_label": "R-CO-R' → R-CH₂-R'"
+    },
+    "metadata": {
+      "mechanism": "Heterogeneous; involves zinc carbenoid intermediates or surface-bound organozinc species; does not proceed via alcohol intermediate",
+      "retrosynthetic_cue": "Methylene group adjacent to arene (complements Wolff–Kishner under acidic rather than basic conditions)",
+      "tags": [
+        "reduction",
+        "carbonyl reduction",
+        "deoxygenation",
+        "zinc amalgam",
+        "acid conditions"
+      ],
+      "summary": "Aldehydes and ketones are reduced to the corresponding methylene (alkane) using zinc amalgam in concentrated hydrochloric acid. The mechanism is heterogeneous and does not pass through the free alcohol intermediate. Complementary to the Wolff–Kishner reduction (which operates under basic conditions)."
+    },
+    "svg": {
+      "reactants": "name_rxns/clemmensen_reactants.svg",
+      "product": "name_rxns/clemmensen_products.svg"
+    }
+  },
+  {
+    "id": "cope",
+    "name": "Cope Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "1,5-Diene",
+      "product_label": "Isomeric 1,5-Diene",
+      "conditions": "Δ (thermal), typically 150–200 °C",
+      "display_label": "1,5-hexadiene → 1,5-hexadiene (isomer)"
+    },
+    "metadata": {
+      "mechanism": "Concerted [3,3]-sigmatropic rearrangement via chair-like (or boat-like) six-membered transition state",
+      "retrosynthetic_cue": "1,5-Diene; [3,3] disconnection",
+      "tags": [
+        "pericyclic",
+        "[3,3]-sigmatropic",
+        "thermal",
+        "concerted",
+        "rearrangement",
+        "1,5-diene"
+      ],
+      "summary": "A 1,5-diene undergoes a concerted [3,3]-sigmatropic rearrangement upon heating to give an isomeric 1,5-diene. The oxy-Cope variant (where a hydroxyl group is present at C3) is dramatically accelerated by prior deprotonation (anionic oxy-Cope) and produces a δ,ε-unsaturated carbonyl compound after tautomerisation."
+    },
+    "svg": {
+      "reactants": "name_rxns/cope_reactants.svg",
+      "product": "name_rxns/cope_products.svg"
+    }
+  },
+  {
+    "id": "corey-kim",
+    "name": "Corey–Kim Oxidation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Primary or Secondary Alcohol",
+      "product_label": "Aldehyde or Ketone",
+      "conditions": "NCS, Me₂S, then Et₃N; toluene or CH₂Cl₂, −25 °C to rt",
+      "display_label": "R-CH(OH)-R' → R-CO-R'"
+    },
+    "metadata": {
+      "mechanism": "NCS and DMS form the Corey–Kim reagent (S,S-dimethylsuccinimidosulfonium chloride); alcohol oxygen attacks sulfonium electrophile; base-mediated β-elimination gives carbonyl",
+      "retrosynthetic_cue": "Aldehyde or ketone from primary or secondary alcohol",
+      "tags": [
+        "oxidation",
+        "alcohol oxidation",
+        "activated DMSO",
+        "sulfonium",
+        "NCS"
+      ],
+      "summary": "Primary and secondary alcohols are oxidised to aldehydes and ketones respectively using N-chlorosuccinimide (NCS) and dimethyl sulfide (DMS), followed by base. The NCS–DMS adduct (Corey–Kim reagent) activates the alcohol as an alkoxysulfonium species, which eliminates to the carbonyl on treatment with triethylamine. Unlike Swern oxidation, the reaction can be performed above −25 °C."
+    },
+    "svg": {
+      "reactants": "name_rxns/corey-kim_reactants.svg",
+      "product": "name_rxns/corey-kim_products.svg"
+    }
+  },
+  {
+    "id": "curtius",
+    "name": "Curtius Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Acyl Azide",
+      "product_label": "Isocyanate (then amine or carbamate on trapping)",
+      "conditions": "Δ (thermal) in inert solvent; or photochemically; trapping with H₂O gives amine (−CO₂), ROH gives carbamate",
+      "display_label": "RCO-N₃ → R-N=C=O + N₂"
+    },
+    "metadata": {
+      "mechanism": "Thermal loss of N₂ from acyl azide with concerted 1,2-migration of R from C to N; gives isocyanate; the isocyanate is trapped by nucleophiles",
+      "retrosynthetic_cue": "Primary amine (one carbon shorter than starting acid), or urethane/carbamate",
+      "tags": [
+        "rearrangement",
+        "1,2-migration",
+        "acyl azide",
+        "isocyanate",
+        "amine synthesis",
+        "chain shortening"
+      ],
+      "summary": "Acyl azides, typically prepared from acyl chlorides and sodium azide (or from carboxylic acid via DPPA), undergo thermal rearrangement with loss of nitrogen gas to give isocyanates. Hydrolysis of the isocyanate yields a primary amine with loss of CO₂, effectively converting a carboxylic acid to a primary amine with one fewer carbon. Trapping with alcohols gives urethanes."
+    },
+    "svg": {
+      "reactants": "name_rxns/curtius_reactants.svg",
+      "product": "name_rxns/curtius_products.svg"
+    }
+  },
+  {
+    "id": "dakin-west",
+    "name": "Dakin–West Reaction",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "α-Amino Acid + Acid Anhydride",
+      "product_label": "α-Acylamino Ketone",
+      "conditions": "Pyridine (base and solvent), reflux; or DMAP catalyst at rt",
+      "display_label": "R-CH(NH₂)-COOH + (RCO)₂O → R-CH(NHCOr)-CO-R"
+    },
+    "metadata": {
+      "mechanism": "Acylation of both amine and carboxylate, forming mixed anhydride; intramolecular acyl substitution gives oxazolone (azlactone) intermediate; further acylation and decarboxylation yields α-acylamino ketone",
+      "retrosynthetic_cue": "α-Acylamino ketone from α-amino acid",
+      "tags": [
+        "amino acid chemistry",
+        "acylation",
+        "decarboxylation",
+        "oxazolone",
+        "azlactone",
+        "nucleophilic acyl substitution"
+      ],
+      "summary": "α-Amino acids react with acid anhydrides in the presence of a base (pyridine) to give α-acylamino ketones via an oxazolone (azlactone) intermediate. The reaction involves successive acylations and a decarboxylation step. DMAP can catalyse the reaction at room temperature."
+    },
+    "svg": {
+      "reactants": "name_rxns/dakin-west_reactants.svg",
+      "product": "name_rxns/dakin-west_products.svg"
+    }
+  },
+  {
+    "id": "dieckmann",
+    "name": "Dieckmann Condensation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Diester (bifunctional)",
+      "product_label": "Cyclic β-Ketoester",
+      "conditions": "NaOEt or NaH, EtOH or THF, Δ",
+      "display_label": "EtO₂C-(CH₂)n-CO₂Et → cyclic β-ketoester"
+    },
+    "metadata": {
+      "mechanism": "Intramolecular Claisen condensation: base deprotonates α-position of one ester, resulting enolate attacks the carbonyl of the second ester intramolecularly with loss of ethoxide",
+      "retrosynthetic_cue": "Cyclic β-ketoester (5- or 6-membered ring); ring closure by Claisen-type disconnection",
+      "tags": [
+        "intramolecular",
+        "Claisen condensation",
+        "ring formation",
+        "cyclic β-ketoester",
+        "enolate"
+      ],
+      "summary": "The intramolecular version of the Claisen condensation: a diester undergoes base-mediated cyclisation to give a cyclic β-ketoester. Ring size is determined by chain length; five- and six-membered rings form most readily. The product β-ketoester is thermodynamically stabilised as its enolate, driving the equilibrium."
+    },
+    "svg": {
+      "reactants": "name_rxns/dieckmann_reactants.svg",
+      "product": "name_rxns/dieckmann_products.svg"
+    }
+  },
+  {
+    "id": "diels-alder",
+    "name": "Diels–Alder Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Conjugated Diene + Dienophile",
+      "product_label": "Cyclohexene",
+      "conditions": "Δ (heat) or high pressure; Lewis acid catalyst for inverse-electron-demand or accelerated variants",
+      "display_label": "Diene + Dienophile → Cyclohexene"
+    },
+    "metadata": {
+      "mechanism": "Concerted [4+2] pericyclic cycloaddition via aromatic-like transition state; syn addition to both components; endo rule applies for kinetic products",
+      "retrosynthetic_cue": "Cyclohexene ring; retro-Diels–Alder disconnection of the 1,2-bond and 5,6-bond to reveal diene and dienophile",
+      "tags": [
+        "pericyclic",
+        "[4+2] cycloaddition",
+        "ring formation",
+        "concerted",
+        "stereospecific"
+      ],
+      "summary": "A conjugated diene reacts with a dienophile in a concerted [4+2] cycloaddition to give a cyclohexene. The reaction is stereospecific (syn addition), regioselective (ortho/para rule), and often endo-selective (kinetic). Electron-rich dienes and electron-poor dienophiles give the best results under normal-electron-demand conditions."
+    },
+    "svg": {
+      "reactants": "name_rxns/diels-alder_reactants.svg",
+      "product": "name_rxns/diels-alder_products.svg"
+    }
+  },
+  {
+    "id": "eschenmoser-claisen",
+    "name": "Eschenmoser–Claisen Rearrangement",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Allylic Alcohol + Ketene N,O-Acetal (e.g., 1-methoxy-1-(trimethylsilyloxy)propene or isopropenyl acetate equiv.)",
+      "product_label": "γ,δ-Unsaturated Amide",
+      "conditions": "Neat or toluene, Δ (110–150 °C)",
+      "display_label": "Allylic alcohol + ketene acetal → γ,δ-unsaturated amide"
+    },
+    "metadata": {
+      "mechanism": "Transketalization of allylic alcohol with ketene acetal gives allyl vinyl ether intermediate; undergoes [3,3]-sigmatropic rearrangement (Claisen) to give γ,δ-unsaturated amide",
+      "retrosynthetic_cue": "γ,δ-Unsaturated amide; variant of Claisen rearrangement",
+      "tags": [
+        "[3,3]-sigmatropic",
+        "Claisen variant",
+        "pericyclic",
+        "allylic alcohol",
+        "amide synthesis"
+      ],
+      "summary": "An allylic alcohol reacts with a ketene N,O-acetal to generate an intermediate allylic vinyl ether, which undergoes a [3,3]-sigmatropic (Claisen) rearrangement to give a γ,δ-unsaturated amide. This variant produces amides rather than esters and complements the Johnson–Claisen (ester) and Ireland–Claisen (ester enolate) variants."
+    },
+    "svg": {
+      "reactants": "name_rxns/eschenmoser-claisen_reactants.svg",
+      "product": "name_rxns/eschenmoser-claisen_products.svg"
+    }
+  },
+  {
+    "id": "eschweiler-clarke",
+    "name": "Eschweiler–Clarke Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Primary or Secondary Amine + Formaldehyde + Formic Acid",
+      "product_label": "N,N-Dimethylamine (or N-methylamine)",
+      "conditions": "Formaldehyde (excess), formic acid (reductant), Δ",
+      "display_label": "RNH₂ + 2 CH₂O + 2 HCO₂H → RN(CH₃)₂ + 2 CO₂ + 2 H₂O"
+    },
+    "metadata": {
+      "mechanism": "Condensation of amine with formaldehyde to give iminium ion; formate transfers hydride to reduce iminium; CO₂ is lost; cycle repeats for second methylation",
+      "retrosynthetic_cue": "N,N-Dimethylamine or N-methylamine from primary amine",
+      "tags": [
+        "reductive amination",
+        "N-methylation",
+        "iminium",
+        "hydride transfer",
+        "amine synthesis"
+      ],
+      "summary": "Primary or secondary amines are exhaustively N-methylated using formaldehyde and formic acid (as the hydride source). The reaction proceeds via iminium ion intermediates which are reduced by formate via transfer hydrogenation, with evolution of CO₂."
+    },
+    "svg": {
+      "reactants": "name_rxns/eschweiler-clarke_reactants.svg",
+      "product": "name_rxns/eschweiler-clarke_products.svg"
+    }
+  },
+  {
+    "id": "finkelstein",
+    "name": "Finkelstein Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Alkyl Chloride or Alkyl Bromide + NaI",
+      "product_label": "Alkyl Iodide",
+      "conditions": "NaI, acetone, reflux (NaCl or NaBr precipitates, driving equilibrium)",
+      "display_label": "R-Cl + NaI → R-I + NaCl↓"
+    },
+    "metadata": {
+      "mechanism": "SN2; iodide attacks carbon with inversion; NaCl or NaBr precipitates from acetone driving equilibrium",
+      "retrosynthetic_cue": "Alkyl iodide from alkyl chloride or bromide",
+      "tags": [
+        "halide exchange",
+        "SN2",
+        "equilibrium",
+        "iodide synthesis"
+      ],
+      "summary": "Alkyl chlorides or bromides are converted to alkyl iodides by treatment with sodium iodide in acetone. The driving force is the insolubility of NaCl or NaBr in acetone. The reaction proceeds by SN2 with inversion of configuration."
+    },
+    "svg": {
+      "reactants": "name_rxns/finkelstein_reactants.svg",
+      "product": "name_rxns/finkelstein_products.svg"
+    }
+  },
+  {
+    "id": "fischer-esterification",
+    "name": "Fischer Esterification",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Carboxylic Acid + Alcohol",
+      "product_label": "Ester + Water",
+      "conditions": "H₂SO₄ or HCl (cat.), Δ; or Dean–Stark trap to remove water",
+      "display_label": "RCOOH + R'OH ⇌ RCOOR' + H₂O"
+    },
+    "metadata": {
+      "mechanism": "Acid-catalysed nucleophilic acyl substitution: protonation of carbonyl, nucleophilic addition of alcohol, proton transfer, loss of water, deprotonation",
+      "retrosynthetic_cue": "Ester; acid + alcohol precursors",
+      "tags": [
+        "esterification",
+        "acid catalysis",
+        "equilibrium",
+        "nucleophilic acyl substitution"
+      ],
+      "summary": "Carboxylic acids react with alcohols under acid catalysis to give esters in a reversible equilibrium. The reaction is driven to completion by removing water (Dean–Stark trap or excess of one reagent). It is the most straightforward method for simple ester synthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/fischer-esterification_reactants.svg",
+      "product": "name_rxns/fischer-esterification_products.svg"
+    }
+  },
+  {
+    "id": "fischer-indole",
+    "name": "Fischer Indole Synthesis",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Arylhydrazine + Aldehyde or Ketone",
+      "product_label": "Indole",
+      "conditions": "H₂SO₄, HCl, BF₃·OEt₂, ZnCl₂, or polyphosphoric acid; Δ",
+      "display_label": "ArNHNH₂ + R-CO-R' → indole + NH₃"
+    },
+    "metadata": {
+      "mechanism": "Condensation of arylhydrazine with carbonyl gives arylhydrazone; [3,3]-sigmatropic rearrangement (aza-Cope); re-aromatisation and loss of ammonia",
+      "retrosynthetic_cue": "Indole (2- or 3-substituted); arylhydrazone precursor via [3,3]-disconnection",
+      "tags": [
+        "indole synthesis",
+        "[3,3]-sigmatropic",
+        "heterocycle",
+        "acid catalysis",
+        "arylhydrazone"
+      ],
+      "summary": "Arylhydrazines condense with aldehydes or ketones to give arylhydrazones, which undergo acid-catalysed [3,3]-sigmatropic rearrangement followed by re-aromatisation and loss of ammonia to give substituted indoles. The reaction is the most widely used method for indole synthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/fischer-indole_reactants.svg",
+      "product": "name_rxns/fischer-indole_products.svg"
+    }
+  },
+  {
+    "id": "friedel-crafts-acylation",
+    "name": "Friedel–Crafts Acylation",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Arene + Acyl Chloride (or Anhydride)",
+      "product_label": "Aryl Ketone",
+      "conditions": "AlCl₃ (stoichiometric Lewis acid), CH₂Cl₂ or CS₂, rt",
+      "display_label": "ArH + RCOCl → Ar-CO-R + HCl"
+    },
+    "metadata": {
+      "mechanism": "Lewis acid activates acyl chloride to form acylium ion; electrophilic aromatic substitution; sigma complex (Wheland intermediate); deprotonation restores aromaticity",
+      "retrosynthetic_cue": "Aryl ketone; disconnect carbonyl from arene",
+      "tags": [
+        "electrophilic aromatic substitution",
+        "EAS",
+        "Lewis acid",
+        "acylium",
+        "ketone synthesis"
+      ],
+      "summary": "Arenes react with acyl chlorides (or anhydrides) in the presence of a stoichiometric Lewis acid (AlCl₃) to give aryl ketones via electrophilic aromatic substitution. Unlike Friedel–Crafts alkylation, no carbocation rearrangements occur; the acylium ion is stabilised by resonance. Electron-rich arenes give higher yields; the product ketone deactivates the ring, preventing polyacylation."
+    },
+    "svg": {
+      "reactants": "name_rxns/friedel-crafts-acylation_reactants.svg",
+      "product": "name_rxns/friedel-crafts-acylation_products.svg"
+    }
+  },
+  {
+    "id": "friedel-crafts-alkylation",
+    "name": "Friedel–Crafts Alkylation",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Arene + Alkyl Halide",
+      "product_label": "Alkylarene",
+      "conditions": "AlCl₃ or BF₃ (Lewis acid), CH₂Cl₂, rt",
+      "display_label": "ArH + RX → Ar-R + HX"
+    },
+    "metadata": {
+      "mechanism": "Lewis acid generates carbocation (or highly polarised complex); electrophilic aromatic substitution; deprotonation by halide or base",
+      "retrosynthetic_cue": "Alkylarene; alkyl–arene bond disconnection",
+      "tags": [
+        "electrophilic aromatic substitution",
+        "EAS",
+        "Lewis acid",
+        "carbocation",
+        "alkylation"
+      ],
+      "summary": "Arenes react with alkyl halides in the presence of a Lewis acid catalyst to give alkylarenes. The reaction is prone to carbocation rearrangements, polyalkylation (since the alkyl product is more reactive), and is limited to electron-rich arenes."
+    },
+    "svg": {
+      "reactants": "name_rxns/friedel-crafts-alkylation_reactants.svg",
+      "product": "name_rxns/friedel-crafts-alkylation_products.svg"
+    }
+  },
+  {
+    "id": "fries",
+    "name": "Fries Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Phenyl Ester (Aryl Ester)",
+      "product_label": "ortho- and/or para-Hydroxyaryl Ketone",
+      "conditions": "Lewis acid (AlCl₃, BF₃), Δ; or photo-Fries (UV light, no Lewis acid)",
+      "display_label": "ArOCOR → HO-Ar-COR (o- and/or p-)"
+    },
+    "metadata": {
+      "mechanism": "Lewis acid coordinates to ester oxygen; acylium generated and re-attacks arene ring (intramolecular EAS) at ortho or para position; tautomerisation releases phenol",
+      "retrosynthetic_cue": "ortho- or para-Hydroxyaryl ketone; ArO–CO disconnection",
+      "tags": [
+        "rearrangement",
+        "Lewis acid",
+        "electrophilic aromatic substitution",
+        "acyl migration",
+        "phenol"
+      ],
+      "summary": "Aryl esters rearrange to ortho- and/or para-hydroxyaryl ketones (acylphenols) on treatment with a Lewis acid. High temperature favours the para product; lower temperature favours the ortho. The photo-Fries rearrangement (UV irradiation) proceeds by a radical or singlet-pair mechanism and is complementary in selectivity."
+    },
+    "svg": {
+      "reactants": "name_rxns/fries_reactants.svg",
+      "product": "name_rxns/fries_products.svg"
+    }
+  },
+  {
+    "id": "gabriel",
+    "name": "Gabriel Synthesis",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Phthalimide + Alkyl Halide",
+      "product_label": "Primary Amine",
+      "conditions": "1. KOH or K₂CO₃ (deprotonation); 2. R-X (alkylation); 3. N₂H₄ or conc. HCl/H₂O (hydrolysis)",
+      "display_label": "Phthalimide → N-alkylphthalimide → RNH₂"
+    },
+    "metadata": {
+      "mechanism": "Deprotonation of phthalimide NH; SN2 alkylation; hydrolysis (acidic or via hydrazinolysis) releases primary amine and phthalic acid/phthalhydrazide",
+      "retrosynthetic_cue": "Primary amine without secondary amine contamination",
+      "tags": [
+        "primary amine synthesis",
+        "SN2",
+        "phthalimide",
+        "N-alkylation",
+        "protecting group strategy"
+      ],
+      "summary": "Phthalimide (pKa ~8.3) is deprotonated and alkylated by an alkyl halide via SN2. Hydrolysis of the N-alkylphthalimide (by acid/water or preferably hydrazine—the Ing–Manske procedure) liberates the primary amine free from secondary amine. Limited to substrates susceptible to SN2."
+    },
+    "svg": {
+      "reactants": "name_rxns/gabriel_reactants.svg",
+      "product": "name_rxns/gabriel_products.svg"
+    }
+  },
+  {
+    "id": "grignard",
+    "name": "Grignard Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Organomagnesium Halide (RMgX) + Electrophilic Carbonyl",
+      "product_label": "Alcohol (or Other Adduct)",
+      "conditions": "Dry Et₂O or THF, inert atmosphere (N₂ or Ar), rt; aqueous workup",
+      "display_label": "RMgX + R'CHO → R-CH(OH)-R' (after workup)"
+    },
+    "metadata": {
+      "mechanism": "Nucleophilic addition of carbanion-like Grignard to electrophilic carbonyl carbon; six-membered cyclic Zimmermann–Traxler-type transition state proposed; workup hydrolyses alkoxide",
+      "retrosynthetic_cue": "C–C bond adjacent to OH; disconnect C–C bond to reveal carbonyl and organometallic",
+      "tags": [
+        "C–C bond formation",
+        "nucleophilic addition",
+        "organometallic",
+        "carbonyl addition",
+        "alcohol synthesis"
+      ],
+      "summary": "Organomagnesium halides (Grignard reagents) add nucleophilically to electrophilic carbonyls (aldehydes, ketones, esters, CO₂, nitriles etc.) to give, after aqueous workup, primary, secondary, tertiary alcohols, carboxylic acids, or ketones depending on the substrate. The Grignard reagent is prepared from alkyl/aryl halides and magnesium turnings in anhydrous ether."
+    },
+    "svg": {
+      "reactants": "name_rxns/grignard_reactants.svg",
+      "product": "name_rxns/grignard_products.svg"
+    }
+  },
+  {
+    "id": "heck",
+    "name": "Heck Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aryl (or Vinyl) Halide + Alkene",
+      "product_label": "Substituted Alkene (trans-selective)",
+      "conditions": "Pd(OAc)₂ or Pd₂(dba)₃, phosphine ligand (PPh₃, etc.), base (Et₃N, K₂CO₃), DMF or MeCN, 80–140 °C",
+      "display_label": "Ar-X + CH₂=CH-R → Ar-CH=CH-R + HX"
+    },
+    "metadata": {
+      "mechanism": "Pd(0)/Pd(II) catalytic cycle: oxidative addition of Ar–X; syn-carboPdH insertion into alkene (migratory insertion); syn β-hydride elimination; base regenerates Pd(0)",
+      "retrosynthetic_cue": "Trisubstituted (E)-alkene with aryl or vinyl group; Heck disconnection",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "palladium catalysis",
+        "alkene synthesis",
+        "Mizoroki–Heck"
+      ],
+      "summary": "Aryl or vinyl halides (and triflates) undergo palladium-catalysed coupling with alkenes to give substituted alkenes, typically with high (E)-selectivity. The catalytic cycle involves oxidative addition of the aryl halide to Pd(0), syn-carbometalation (migratory insertion) of the alkene, then syn β-hydride elimination. Credited to Heck (and independently Mizoroki)."
+    },
+    "svg": {
+      "reactants": "name_rxns/heck_reactants.svg",
+      "product": "name_rxns/heck_products.svg"
+    }
+  },
+  {
+    "id": "hell-volhard-zelinsky",
+    "name": "Hell–Volhard–Zelinsky Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Carboxylic Acid + Br₂ (or Cl₂) + cat. P (red or white)",
+      "product_label": "α-Halocarboxylic Acid",
+      "conditions": "Br₂, cat. PBr₃ (generated in situ from P + Br₂); neat or no solvent",
+      "display_label": "RCH₂COOH + Br₂ → RCHBrCOOH + HBr"
+    },
+    "metadata": {
+      "mechanism": "P converts carboxylic acid to acyl halide; acid chloride/bromide undergoes enolisation; α-halogenation of enol tautomer; hydrolysis of α-haloacyl halide back to α-halocarboxylic acid",
+      "retrosynthetic_cue": "α-Halocarboxylic acid; precursor to α-aminoacids (via SN2 with ammonia), α-hydroxyacids, and α,β-unsaturated acids",
+      "tags": [
+        "α-halogenation",
+        "carboxylic acid",
+        "phosphorus catalysis",
+        "enolisation"
+      ],
+      "summary": "Carboxylic acids are selectively α-halogenated using bromine (or chlorine) and catalytic phosphorus (forming PBr₃ in situ). The phosphorus converts the acid to an acyl bromide, which enolises readily and undergoes α-bromination; hydrolysis on workup gives the α-bromocarboxylic acid."
+    },
+    "svg": {
+      "reactants": "name_rxns/hell-volhard-zelinsky_reactants.svg",
+      "product": "name_rxns/hell-volhard-zelinsky_products.svg"
+    }
+  },
+  {
+    "id": "henry",
+    "name": "Henry Reaction (Nitroaldol)",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Nitroalkane + Aldehyde (or Ketone)",
+      "product_label": "β-Nitroalcohol",
+      "conditions": "Base (K₂CO₃, Et₃N, or KF/Al₂O₃), rt or mild Δ; chiral Cu/Zn catalysts for asymmetric variant",
+      "display_label": "RCH₂NO₂ + R'CHO → R'CH(OH)-CH(R)-NO₂"
+    },
+    "metadata": {
+      "mechanism": "Base deprotonates α-carbon of nitroalkane to form nitronate anion; nucleophilic addition to aldehyde carbonyl; protonation gives β-nitroalcohol",
+      "retrosynthetic_cue": "β-Nitroalcohol or (after reduction) 1,2-amino alcohol",
+      "tags": [
+        "C–C bond formation",
+        "nitroaldol",
+        "enolate equivalents",
+        "nitronate",
+        "aldol-type"
+      ],
+      "summary": "Base-catalysed condensation of a nitroalkane with an aldehyde (or ketone) gives a β-nitroalcohol (nitroaldol). The product can be dehydrated to the nitroalkene (Nef conditions) or reduced to the 1,2-amino alcohol, making it useful in amino acid and alkaloid synthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/henry_reactants.svg",
+      "product": "name_rxns/henry_products.svg"
+    }
+  },
+  {
+    "id": "hofmann-elimination",
+    "name": "Hofmann Elimination",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Quaternary Ammonium Hydroxide",
+      "product_label": "Less-substituted Alkene (anti-Zaitsev) + Tertiary Amine",
+      "conditions": "Quaternary ammonium salt → hydroxide (Ag₂O/H₂O); then Δ (100–150 °C)",
+      "display_label": "R₄N⁺OH⁻ → less substituted alkene + R₃N + H₂O"
+    },
+    "metadata": {
+      "mechanism": "E2 elimination: bulky trimethylamino leaving group directs base attack to the least-hindered (most accessible) β-hydrogen; anti-periplanar requirement",
+      "retrosynthetic_cue": "Less-substituted (Hofmann) alkene; contrast with Zaitsev (more substituted) elimination",
+      "tags": [
+        "elimination",
+        "E2",
+        "quaternary ammonium",
+        "Hofmann product",
+        "anti-Zaitsev"
+      ],
+      "summary": "Exhaustive methylation of an amine (excess MeI), followed by treatment with Ag₂O/H₂O (to give the quaternary ammonium hydroxide) and thermolysis, gives the less-substituted (Hofmann) alkene. The bulky trimethylamino group makes it a poor leaving group, so the thermodynamically less stable terminal alkene predominates."
+    },
+    "svg": {
+      "reactants": "name_rxns/hofmann-elimination_reactants.svg",
+      "product": "name_rxns/hofmann-elimination_products.svg"
+    }
+  },
+  {
+    "id": "hofmann-rearrangement",
+    "name": "Hofmann Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Primary Amide + Br₂ (or I₂) + NaOH",
+      "product_label": "Primary Amine (one carbon fewer)",
+      "conditions": "Br₂, NaOH (aq.), 0 °C to rt; or NBS/NaOMe in MeOH",
+      "display_label": "RCONH₂ + Br₂ + 2 NaOH → RNH₂ + CO₂ + 2 NaBr + H₂O"
+    },
+    "metadata": {
+      "mechanism": "N-Bromoamide formed; base deprotonates to give N-bromo amide anion; loss of bromide generates nitrene; 1,2-migration of R from C to N gives isocyanate; hydrolysis gives amine + CO₂",
+      "retrosynthetic_cue": "Primary amine with one fewer carbon than starting amide",
+      "tags": [
+        "rearrangement",
+        "1,2-migration",
+        "chain shortening",
+        "primary amine",
+        "nitrene intermediate",
+        "isocyanate"
+      ],
+      "summary": "Primary amides react with bromine in aqueous base to give primary amines containing one fewer carbon atom. The mechanism involves N-bromoamide formation, base deprotonation, and concerted 1,2-migration of the R group from carbon to nitrogen (via a nitrene or its equivalent) to give an isocyanate, which hydrolyses to amine + CO₂."
+    },
+    "svg": {
+      "reactants": "name_rxns/hofmann-rearrangement_reactants.svg",
+      "product": "name_rxns/hofmann-rearrangement_products.svg"
+    }
+  },
+  {
+    "id": "ireland-claisen",
+    "name": "Ireland–Claisen Rearrangement",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Allyl Ester",
+      "product_label": "γ,δ-Unsaturated Carboxylic Acid",
+      "conditions": "1. LDA, THF, −78 °C; 2. TMS-Cl (traps enolate as silyl ketene acetal); 3. warm to rt or Δ ([3,3]-sigmatropic step); 4. aqueous workup",
+      "display_label": "Allyl ester → (via silyl ketene acetal) → γ,δ-unsaturated acid"
+    },
+    "metadata": {
+      "mechanism": "LDA deprotonation of ester α-carbon; silylation with TMSCl gives silyl ketene acetal (allyl vinyl ether); [3,3]-sigmatropic rearrangement; protodesilylation on workup gives carboxylic acid",
+      "retrosynthetic_cue": "γ,δ-Unsaturated carboxylic acid; Claisen variant with precise enolate geometry control",
+      "tags": [
+        "[3,3]-sigmatropic",
+        "Claisen variant",
+        "silyl ketene acetal",
+        "enolate",
+        "carboxylic acid"
+      ],
+      "summary": "Allyl esters are deprotonated with LDA at −78 °C; trapping with TMSCl gives a silyl ketene acetal, which undergoes [3,3]-sigmatropic (Claisen) rearrangement on warming to give, after workup, a γ,δ-unsaturated carboxylic acid. Enolate geometry (E or Z) controls the relative stereochemistry of the product via the chair-like transition state."
+    },
+    "svg": {
+      "reactants": "name_rxns/ireland-claisen_reactants.svg",
+      "product": "name_rxns/ireland-claisen_products.svg"
+    }
+  },
+  {
+    "id": "johnson-claisen",
+    "name": "Johnson–Claisen Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Allylic Alcohol + Triethyl Orthoacetate",
+      "product_label": "γ,δ-Unsaturated Ester",
+      "conditions": "Triethyl orthoacetate [CH₃C(OEt)₃], catalytic acid (e.g., EtCO₂H), Δ (~130–150 °C)",
+      "display_label": "Allylic alcohol + CH₃C(OEt)₃ → γ,δ-unsaturated ester"
+    },
+    "metadata": {
+      "mechanism": "Acid-catalysed transesterification of allylic alcohol with orthoacetate to give ketene acetal intermediate (allyl vinyl ether); [3,3]-sigmatropic rearrangement; ethanol lost",
+      "retrosynthetic_cue": "γ,δ-Unsaturated ester (ethyl ester); Claisen variant from allylic alcohol",
+      "tags": [
+        "[3,3]-sigmatropic",
+        "Claisen variant",
+        "orthoacetate",
+        "ester synthesis",
+        "allylic alcohol"
+      ],
+      "summary": "Allylic alcohols react with triethyl orthoacetate under mild acid catalysis on heating to give γ,δ-unsaturated esters. The reaction proceeds via transesterification to give a ketene acetal (allyl vinyl ether equivalent), which undergoes [3,3]-Claisen rearrangement. Proceeds under milder conditions than the thermal aromatic Claisen."
+    },
+    "svg": {
+      "reactants": "name_rxns/johnson-claisen_reactants.svg",
+      "product": "name_rxns/johnson-claisen_products.svg"
+    }
+  },
+  {
+    "id": "jones",
+    "name": "Jones Oxidation",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Primary or Secondary Alcohol",
+      "product_label": "Carboxylic Acid (from 1°) or Ketone (from 2°)",
+      "conditions": "CrO₃, H₂SO₄ (conc.), acetone (Jones reagent), 0 °C to rt",
+      "display_label": "R-CH(OH)-R' → R-CO-R' (or R-CH₂OH → RCO₂H)"
+    },
+    "metadata": {
+      "mechanism": "Chromate ester formation with alcohol; β-elimination of HCrO₃⁻ (E2-type) gives carbonyl; primary alcohols oxidised further to carboxylic acid",
+      "retrosynthetic_cue": "Ketone from secondary alcohol; carboxylic acid from primary alcohol",
+      "tags": [
+        "oxidation",
+        "chromium",
+        "Jones reagent",
+        "alcohol oxidation",
+        "carboxylic acid"
+      ],
+      "summary": "CrO₃ dissolved in dilute sulfuric acid in acetone (Jones reagent) oxidises primary alcohols to carboxylic acids and secondary alcohols to ketones. The reaction is rapid and high-yielding but requires care with acid-sensitive substrates. Compatible with double bonds but not sulfides, amines, or easily oxidised functionalities."
+    },
+    "svg": {
+      "reactants": "name_rxns/jones_reactants.svg",
+      "product": "name_rxns/jones_products.svg"
+    }
+  },
+  {
+    "id": "knoevenagel",
+    "name": "Knoevenagel Condensation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aldehyde (or Ketone) + Active Methylene Compound",
+      "product_label": "α,β-Unsaturated Carbonyl (knoevenagel product)",
+      "conditions": "Amine base (piperidine, pyridine, Et₃N) or weak acid (AcOH), EtOH, rt or Δ",
+      "display_label": "RCHO + CH₂(EWG)₂ → RCH=C(EWG)₂ + H₂O"
+    },
+    "metadata": {
+      "mechanism": "Amine (or enamine) condenses with aldehyde; aldol-type addition of active methylene; dehydration gives α,β-unsaturated product; amine is regenerated",
+      "retrosynthetic_cue": "α,β-Unsaturated 1,3-dicarbonyl or related compound; disconnect at C=C bond",
+      "tags": [
+        "condensation",
+        "C–C bond formation",
+        "active methylene",
+        "α,β-unsaturated carbonyl",
+        "organocatalysis"
+      ],
+      "summary": "Aldehydes (or ketones) condense with active methylene compounds (malonates, cyanoacetates, β-ketoesters, nitroalkanes, etc.) under mild base (commonly piperidine) catalysis to give α,β-unsaturated products with loss of water. Related to aldol condensation but proceeding via enamine or zwitterionic intermediates."
+    },
+    "svg": {
+      "reactants": "name_rxns/knoevenagel_reactants.svg",
+      "product": "name_rxns/knoevenagel_products.svg"
+    }
+  },
+  {
+    "id": "knorr-pyrazole",
+    "name": "Knorr Pyrazole Synthesis",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "1,3-Dicarbonyl Compound + Hydrazine (or Arylhydrazine)",
+      "product_label": "Pyrazole",
+      "conditions": "EtOH or AcOH, rt to Δ; often requires no catalyst for reactive substrates",
+      "display_label": "R-CO-CH₂-CO-R' + H₂NNH₂ → pyrazole + 2 H₂O"
+    },
+    "metadata": {
+      "mechanism": "Condensation of hydrazine with one carbonyl to give hydrazone; intramolecular nucleophilic attack of NH₂ on second carbonyl; dehydration and tautomerisation to aromatic pyrazole",
+      "retrosynthetic_cue": "Pyrazole ring; 1,3-dicarbonyl + hydrazine disconnection",
+      "tags": [
+        "heterocycle synthesis",
+        "pyrazole",
+        "condensation",
+        "1,3-dicarbonyl",
+        "hydrazine"
+      ],
+      "summary": "1,3-Dicarbonyl compounds (β-diketones, β-ketoesters) react with hydrazines to give pyrazoles via double condensation and dehydration. With unsymmetrical 1,3-dicarbonyls and monosubstituted hydrazines, a mixture of regioisomeric pyrazoles is typically obtained."
+    },
+    "svg": {
+      "reactants": "name_rxns/knorr-pyrazole_reactants.svg",
+      "product": "name_rxns/knorr-pyrazole_products.svg"
+    }
+  },
+  {
+    "id": "kolbe-schmitt",
+    "name": "Kolbe–Schmitt Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Sodium Phenoxide + CO₂ (high pressure)",
+      "product_label": "Sodium Salicylate (ortho-hydroxybenzoate)",
+      "conditions": "CO₂ (high pressure, ~5 atm), 125 °C; sodium phenoxide gives ortho-product (salicylate); potassium phenoxide gives para-product",
+      "display_label": "PhONa + CO₂ → HO-C₆H₄-CO₂Na (ortho)"
+    },
+    "metadata": {
+      "mechanism": "CO₂ coordinates to phenoxide oxygen; [1,3]-carboxylation rearrangement (electrophilic aromatic substitution by CO₂ on activated ring); ortho-selectivity with Na⁺; para-selectivity with K⁺ (ionic radius directs chelation)",
+      "retrosynthetic_cue": "Salicylic acid (aspirin precursor); ortho-hydroxybenzoic acid",
+      "tags": [
+        "carboxylation",
+        "CO₂ fixation",
+        "electrophilic aromatic substitution",
+        "phenol",
+        "regioselective"
+      ],
+      "summary": "Sodium phenoxide reacts with CO₂ under pressure and heat to give sodium salicylate (ortho-hydroxybenzoate), industrially important as a precursor to aspirin and salicylate drugs. Potassium phenoxide favours para-carboxylation (para-hydroxybenzoate) due to differences in cation coordination geometry."
+    },
+    "svg": {
+      "reactants": "name_rxns/kolbe-schmitt_reactants.svg",
+      "product": "name_rxns/kolbe-schmitt_products.svg"
+    }
+  },
+  {
+    "id": "kumada",
+    "name": "Kumada Cross-Coupling",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Grignard Reagent (R-MgX) + Aryl or Vinyl Halide",
+      "product_label": "Cross-coupled Product (R–Ar or R–vinyl)",
+      "conditions": "Pd(dppf)Cl₂ or NiCl₂(dppe) (cat.), THF or Et₂O, 0 °C to reflux",
+      "display_label": "RMgX + R'-X → R-R' + MgX₂"
+    },
+    "metadata": {
+      "mechanism": "Ni(0) or Pd(0) catalytic cycle: oxidative addition of aryl/vinyl halide; transmetalation with Grignard reagent; reductive elimination to form C–C bond",
+      "retrosynthetic_cue": "Biaryl or alkyl-arene; C–C bond from Grignard + aryl halide",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "Grignard",
+        "nickel catalysis",
+        "palladium catalysis",
+        "transmetalation"
+      ],
+      "summary": "The first palladium- (and nickel-) catalysed cross-coupling reaction, the Kumada coupling couples Grignard reagents with aryl or vinyl halides. The use of Grignard reagents limits functional group tolerance. Nickel catalysts are often preferred and are more economical."
+    },
+    "svg": {
+      "reactants": "name_rxns/kumada_reactants.svg",
+      "product": "name_rxns/kumada_products.svg"
+    }
+  },
+  {
+    "id": "luche",
+    "name": "Luche Reduction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "α,β-Unsaturated Carbonyl (or Ketone)",
+      "product_label": "Allylic Alcohol (1,2-reduction product)",
+      "conditions": "NaBH₄, CeCl₃·7H₂O, MeOH, 0 °C to rt",
+      "display_label": "R-CO-CH=CH₂ → R-CH(OH)-CH=CH₂"
+    },
+    "metadata": {
+      "mechanism": "CeCl₃ coordinates to carbonyl oxygen, activating it toward 1,2-addition; cerium alkoxide is harder Lewis acid, directing hydride to carbonyl rather than 1,4-conjugate position",
+      "retrosynthetic_cue": "Allylic alcohol from α,β-unsaturated carbonyl with 1,2-selectivity",
+      "tags": [
+        "reduction",
+        "1,2-selective",
+        "cerium",
+        "NaBH4",
+        "allylic alcohol",
+        "chemoselectivity"
+      ],
+      "summary": "NaBH₄ in the presence of CeCl₃ (cerium(III) chloride) selectively reduces α,β-unsaturated carbonyls by 1,2-addition (to give allylic alcohols) rather than 1,4-conjugate reduction. CeCl₃ activates the carbonyl by coordination, overriding the inherent conjugate selectivity of NaBH₄ with enones."
+    },
+    "svg": {
+      "reactants": "name_rxns/luche_reactants.svg",
+      "product": "name_rxns/luche_products.svg"
+    }
+  },
+  {
+    "id": "mannich",
+    "name": "Mannich Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Enolisable Carbonyl + Formaldehyde + Amine (primary or secondary)",
+      "product_label": "β-Amino Carbonyl Compound (Mannich Base)",
+      "conditions": "HCl (cat.) or AcOH, EtOH or H₂O, rt to Δ",
+      "display_label": "R-CO-CH₂-R' + CH₂O + HNR''₂ → R-CO-CH(CH₂NR''₂)-R'"
+    },
+    "metadata": {
+      "mechanism": "Amine condenses with formaldehyde to give iminium ion; enolisation of carbonyl; Mannich-type addition of enol to iminium; gives β-aminocarbonyl",
+      "retrosynthetic_cue": "β-Amino carbonyl compound (Mannich base); disconnect CH₂–N bond to reveal enol + iminium",
+      "tags": [
+        "C–C bond formation",
+        "multicomponent",
+        "iminium",
+        "aminomethylation",
+        "β-amino carbonyl"
+      ],
+      "summary": "A three-component reaction (α-CH-acidic carbonyl, formaldehyde, and amine) that installs an aminomethyl group (–CH₂NR₂) α to a carbonyl to give a Mannich base. Widely used in alkaloid synthesis and pharmaceutical chemistry. The iminium ion is the key electrophile."
+    },
+    "svg": {
+      "reactants": "name_rxns/mannich_reactants.svg",
+      "product": "name_rxns/mannich_products.svg"
+    }
+  },
+  {
+    "id": "michael",
+    "name": "Michael Addition",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Nucleophile (Michael Donor) + α,β-Unsaturated Carbonyl (Michael Acceptor)",
+      "product_label": "1,4-Addition Product",
+      "conditions": "Base (Et₃N, NaOEt) or acid catalyst; or organocatalyst for asymmetric; solvent varies",
+      "display_label": "Nu⁻ + CH₂=CH-COR → Nu-CH₂-CH₂-COR"
+    },
+    "metadata": {
+      "mechanism": "1,4-Conjugate addition: nucleophile attacks β-carbon of α,β-unsaturated system; enolate intermediate protonates at α-carbon",
+      "retrosynthetic_cue": "1,4-Dicarbonyl or related 1,4-functional relationship; Michael disconnection at Cβ–Nu bond",
+      "tags": [
+        "conjugate addition",
+        "1,4-addition",
+        "C–C bond formation",
+        "enolate",
+        "α,β-unsaturated carbonyl"
+      ],
+      "summary": "A nucleophile (typically a stabilised carbanion, enolate, thiolate, or amine) adds in a 1,4-manner to an α,β-unsaturated carbonyl compound (or other Michael acceptor) to give the 1,4-addition product. The reaction is the basis of the Robinson annulation and is central to a vast range of synthetic strategies."
+    },
+    "svg": {
+      "reactants": "name_rxns/michael_reactants.svg",
+      "product": "name_rxns/michael_products.svg"
+    }
+  },
+  {
+    "id": "mitsunobu",
+    "name": "Mitsunobu Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Alcohol + Acidic Pronucleophile (pKa < ~13) + PPh₃ + DIAD (or DEAD)",
+      "product_label": "SN2-Inverted Product",
+      "conditions": "PPh₃, DIAD or DEAD, THF or benzene or toluene, 0 °C to rt, inert atmosphere",
+      "display_label": "R-OH + HNu → R-Nu (inverted) + Ph₃P=O + DIAD-H₂"
+    },
+    "metadata": {
+      "mechanism": "Betaine from PPh₃ and DIAD deprotonates pronucleophile; oxyphosphonium ion forms from alcohol and PPh₃–DIAD adduct; SN2 by deprotonated nucleophile with inversion; Ph₃P=O and DIAD-H₂ are by-products",
+      "retrosynthetic_cue": "Inverted configuration at sp³ carbon bearing heteroatom nucleophile; alcohol precursor with predictable inversion",
+      "tags": [
+        "SN2",
+        "inversion",
+        "stereospecific",
+        "alcohol activation",
+        "phosphine",
+        "azo reagent"
+      ],
+      "summary": "The Mitsunobu reaction converts an alcohol and an acidic pronucleophile (pKa < ~13; e.g., carboxylic acid, phthalimide, phenol) into the SN2-inverted product using PPh₃ and a dialkyl azodicarboxylate (DIAD or DEAD). The net result is dehydration with complete inversion of configuration. Ph₃P=O and the reduced azo by-product are generated stoichiometrically."
+    },
+    "svg": {
+      "reactants": "name_rxns/mitsunobu_reactants.svg",
+      "product": "name_rxns/mitsunobu_products.svg"
+    }
+  },
+  {
+    "id": "mukaiyama-aldol",
+    "name": "Mukaiyama Aldol Addition",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Silyl Enol Ether (or Silyl Ketene Acetal) + Aldehyde",
+      "product_label": "β-Hydroxy Carbonyl Compound",
+      "conditions": "TiCl₄, BF₃·OEt₂, or SnCl₄ (Lewis acid); CH₂Cl₂, −78 °C",
+      "display_label": "R₂C=CH-OTMS + R'CHO → R₂C(CH₂)-CH(OH)-R' (as carbonyl after workup)"
+    },
+    "metadata": {
+      "mechanism": "Lewis acid activates aldehyde; silyl enol ether adds in open-chain (Zimmermann–Traxler not applicable) or via cyclic TS; gives β-hydroxy carbonyl after workup; stereoselectivity controlled by geometry of silyl enol ether and Lewis acid",
+      "retrosynthetic_cue": "β-Hydroxy carbonyl compound; Mukaiyama aldol disconnection",
+      "tags": [
+        "aldol",
+        "Lewis acid",
+        "silyl enol ether",
+        "C–C bond formation",
+        "crossed aldol",
+        "stereoselectivity"
+      ],
+      "summary": "A Lewis acid-catalysed variant of the aldol addition using silyl enol ethers (or silyl ketene acetals) in place of enolates. The reaction is not reversible under the conditions and allows crossed aldol additions between different carbonyl components that would otherwise equilibrate. Stereocontrol depends on the geometry of the silyl enol ether and the choice of Lewis acid."
+    },
+    "svg": {
+      "reactants": "name_rxns/mukaiyama-aldol_reactants.svg",
+      "product": "name_rxns/mukaiyama-aldol_products.svg"
+    }
+  },
+  {
+    "id": "negishi",
+    "name": "Negishi Cross-Coupling",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Organozinc Reagent + Aryl, Vinyl, or Benzyl Halide",
+      "product_label": "Cross-coupled Product",
+      "conditions": "Pd(PPh₃)₄ or Pd₂(dba)₃ / ligand, THF or DMF, rt to 60 °C",
+      "display_label": "RZnX + R'-X → R-R' + ZnX₂"
+    },
+    "metadata": {
+      "mechanism": "Pd(0)/Pd(II) catalytic cycle: oxidative addition of aryl/vinyl halide; transmetalation with organozinc; reductive elimination",
+      "retrosynthetic_cue": "C–C bond between sp² carbons; disconnect to aryl/vinyl halide + organozinc",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "organozinc",
+        "palladium catalysis",
+        "transmetalation"
+      ],
+      "summary": "Organozinc reagents (or zincates) couple with aryl, vinyl, or benzyl halides under palladium catalysis. Organozinc species have lower reactivity than Grignard reagents, conferring better functional group tolerance (esters, nitriles, amides are compatible). The Nobel Prize in Chemistry 2010 was awarded in part for the Negishi coupling."
+    },
+    "svg": {
+      "reactants": "name_rxns/negishi_reactants.svg",
+      "product": "name_rxns/negishi_products.svg"
+    }
+  },
+  {
+    "id": "oppenauer",
+    "name": "Oppenauer Oxidation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Secondary Alcohol + Hydrogen Acceptor Ketone (e.g., acetone or cyclohexanone)",
+      "product_label": "Ketone",
+      "conditions": "Al(OiPr)₃ (aluminium isopropoxide), acetone (excess), benzene or toluene, Δ",
+      "display_label": "R-CH(OH)-R' + acetone → R-CO-R' + isopropanol"
+    },
+    "metadata": {
+      "mechanism": "Aluminium alkoxide exchange; hydride transfer via six-membered cyclic transition state from secondary alcohol to ketone acceptor (reverse Meerwein–Ponndorf–Verley)",
+      "retrosynthetic_cue": "Ketone from secondary alcohol; complement to Meerwein–Ponndorf–Verley reduction",
+      "tags": [
+        "oxidation",
+        "hydride transfer",
+        "aluminium",
+        "ketone synthesis",
+        "Meerwein–Ponndorf–Verley reverse"
+      ],
+      "summary": "The reverse of the Meerwein–Ponndorf–Verley reduction: secondary alcohols are oxidised to ketones using aluminium isopropoxide in the presence of a sacrificial hydrogen acceptor ketone (usually acetone in excess). The mechanism involves a six-membered cyclic hydride-transfer transition state. Mild and selective for secondary over primary alcohols; compatible with double bonds."
+    },
+    "svg": {
+      "reactants": "name_rxns/oppenauer_reactants.svg",
+      "product": "name_rxns/oppenauer_products.svg"
+    }
+  },
+  {
+    "id": "pauson-khand",
+    "name": "Pauson–Khand Reaction",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Alkyne + Alkene + CO",
+      "product_label": "α,β-Cyclopentenone",
+      "conditions": "Co₂(CO)₈ (stoichiometric) or catalytic transition metal (Rh, Ru, Mo, Ti), CO atmosphere, benzene or toluene, Δ or NMO-promoted",
+      "display_label": "R-C≡C-R' + CH₂=CH₂ + CO → cyclopentenone"
+    },
+    "metadata": {
+      "mechanism": "[2+2+1] cycloaddition via cobalt-alkyne complex; CO insertion; alkene complexation and insertion; reductive elimination gives cyclopentenone ring",
+      "retrosynthetic_cue": "α,β-Cyclopentenone ring; disconnect to alkyne + alkene + CO",
+      "tags": [
+        "[2+2+1] cycloaddition",
+        "cobalt",
+        "CO insertion",
+        "cyclopentenone",
+        "transition metal"
+      ],
+      "summary": "Alkynes, alkenes, and carbon monoxide combine in the presence of a cobalt carbonyl complex (traditionally Co₂(CO)₈, stoichiometric) to give α,β-cyclopentenones in a [2+2+1] cycloaddition. The intramolecular variant is particularly powerful in total synthesis for construction of 5,5- and 6,5-bicyclic ring systems. N-oxide promoters (e.g., NMO) can accelerate the reaction."
+    },
+    "svg": {
+      "reactants": "name_rxns/pauson-khand_reactants.svg",
+      "product": "name_rxns/pauson-khand_products.svg"
+    }
+  },
+  {
+    "id": "perkin",
+    "name": "Perkin Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aromatic Aldehyde + Acid Anhydride",
+      "product_label": "α,β-Unsaturated Arylacrylic Acid (cinnamic acid derivative)",
+      "conditions": "Carboxylate salt of the anhydride's acid (K₂CO₃ or NaOAc), Δ (100–180 °C)",
+      "display_label": "ArCHO + (RCO)₂O → ArCH=CRCOOH + RCOOH"
+    },
+    "metadata": {
+      "mechanism": "Base deprotonates α-carbon of anhydride to give enolate (or acyl carbanion equivalent); Knoevenagel-type addition to aldehyde; acylation; elimination to give α,β-unsaturated acyl anhydride; hydrolysis gives cinnamic acid",
+      "retrosynthetic_cue": "Arylacrylic acid (cinnamic acid type); aryl aldehyde + acetic anhydride",
+      "tags": [
+        "condensation",
+        "C–C bond formation",
+        "cinnamic acid",
+        "anhydride",
+        "α,β-unsaturated acid"
+      ],
+      "summary": "Aromatic aldehydes condense with acid anhydrides in the presence of the corresponding carboxylate salt (as base) to give α,β-unsaturated carboxylic acids (arylacrylic acids, e.g., cinnamic acid from benzaldehyde and acetic anhydride/NaOAc). The reaction is limited to aromatic (non-enolisable) aldehydes."
+    },
+    "svg": {
+      "reactants": "name_rxns/perkin_reactants.svg",
+      "product": "name_rxns/perkin_products.svg"
+    }
+  },
+  {
+    "id": "pictet-spengler",
+    "name": "Pictet–Spengler Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "β-Arylethylamine + Aldehyde (or Ketone)",
+      "product_label": "1,2,3,4-Tetrahydroisoquinoline (or β-carboline)",
+      "conditions": "Acid catalyst (HCl, TFA, AcOH) or no catalyst; EtOH or MeOH, rt to Δ",
+      "display_label": "2-arylethylamine + RCHO → 1-R-1,2,3,4-tetrahydroisoquinoline"
+    },
+    "metadata": {
+      "mechanism": "Condensation of amine with aldehyde gives iminium ion; intramolecular electrophilic cyclisation onto electron-rich arene; Mannich-type ring closure",
+      "retrosynthetic_cue": "1,2,3,4-Tetrahydroisoquinoline or β-carboline (from tryptamine); key step in isoquinoline alkaloid synthesis",
+      "tags": [
+        "heterocycle synthesis",
+        "isoquinoline",
+        "β-carboline",
+        "iminium",
+        "electrophilic cyclisation",
+        "alkaloid synthesis"
+      ],
+      "summary": "β-Arylethylamines (e.g., tyramine, tryptamine) condense with aldehydes under acid catalysis to give an iminium ion, which undergoes intramolecular electrophilic aromatic cyclisation to give 1,2,3,4-tetrahydroisoquinolines (or β-carbolines from tryptamines). It is the key step in the biosynthesis and synthesis of isoquinoline and β-carboline alkaloids."
+    },
+    "svg": {
+      "reactants": "name_rxns/pictet-spengler_reactants.svg",
+      "product": "name_rxns/pictet-spengler_products.svg"
+    }
+  },
+  {
+    "id": "prins",
+    "name": "Prins Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Alkene + Aldehyde",
+      "product_label": "Homoallylic Alcohol, 1,3-Dioxane, or β-Halo Alcohol (depending on conditions)",
+      "conditions": "H₂SO₄, BF₃·OEt₂, or other Lewis/Brønsted acid; temperature and nucleophile determine product",
+      "display_label": "CH₂=CH₂ + HCHO → homoallylic alcohol (or 1,3-dioxane)"
+    },
+    "metadata": {
+      "mechanism": "Acid activates aldehyde; electrophilic addition to alkene gives oxocarbenium ion; cyclisation or trapping by nucleophile (water, halide, second aldehyde oxygen)",
+      "retrosynthetic_cue": "1,3-Dioxane or homoallylic alcohol; oxocarbenium-based cyclisation",
+      "tags": [
+        "C–C bond formation",
+        "Lewis acid",
+        "oxocarbenium",
+        "cyclic ether",
+        "homoallylic alcohol"
+      ],
+      "summary": "The acid-catalysed reaction of alkenes with aldehydes to give homoallylic alcohols, 1,3-dioxanes, or β-haloalcohols depending on conditions. The key intermediate is an oxocarbenium ion formed from aldehyde activation and addition to the alkene. The Prins cyclisation (intramolecular) is widely used to construct tetrahydropyran rings in polyketide synthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/prins_reactants.svg",
+      "product": "name_rxns/prins_products.svg"
+    }
+  },
+  {
+    "id": "reformatsky",
+    "name": "Reformatsky Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "α-Haloester + Zinc + Aldehyde (or Ketone)",
+      "product_label": "β-Hydroxyester",
+      "conditions": "Zn (activated), THF or Et₂O, 0 °C to reflux; or SmI₂ (Samarium variant)",
+      "display_label": "BrCH₂CO₂Et + Zn + RCHO → RCH(OH)CH₂CO₂Et"
+    },
+    "metadata": {
+      "mechanism": "Zinc inserts into the C–Br bond of α-haloester to give organozinc (Reformatsky reagent); this zinc enolate adds to aldehyde/ketone; aqueous workup gives β-hydroxyester",
+      "retrosynthetic_cue": "β-Hydroxyester; Reformatsky disconnection of C–C bond to α-haloester + carbonyl",
+      "tags": [
+        "C–C bond formation",
+        "zinc",
+        "organometallic",
+        "β-hydroxyester",
+        "aldol-type",
+        "enolate equivalent"
+      ],
+      "summary": "Zinc metal inserts oxidatively into the C–X bond of an α-haloester to generate a zinc enolate (Reformatsky reagent), which adds to aldehydes or ketones to give β-hydroxyesters after workup. Less basic than Grignard reagents, the Reformatsky reagent tolerates many functional groups."
+    },
+    "svg": {
+      "reactants": "name_rxns/reformatsky_reactants.svg",
+      "product": "name_rxns/reformatsky_products.svg"
+    }
+  },
+  {
+    "id": "reimer-tiemann",
+    "name": "Reimer–Tiemann Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Phenol + CHCl₃ + NaOH",
+      "product_label": "ortho-Hydroxybenzaldehyde (Salicylaldehyde, major) + para-Hydroxybenzaldehyde (minor)",
+      "conditions": "CHCl₃, NaOH (conc.), Δ (~60–70 °C), aqueous",
+      "display_label": "PhOH + CHCl₃ + NaOH → 2-HO-C₆H₄-CHO + 4-HO-C₆H₄-CHO"
+    },
+    "metadata": {
+      "mechanism": "Strong base generates dichlorocarbene (CCl₂) from CHCl₃; electrophilic addition of CCl₂ to activated phenoxide ring at ortho position; subsequent hydrolysis of trichloromethyl group gives aldehyde",
+      "retrosynthetic_cue": "ortho-Hydroxybenzaldehyde; phenol formylation at ortho position",
+      "tags": [
+        "formylation",
+        "carbene",
+        "electrophilic aromatic substitution",
+        "phenol",
+        "salicylaldehyde"
+      ],
+      "summary": "Phenols react with chloroform in concentrated alkali to give ortho-hydroxybenzaldehydes (salicylaldehydes) as the major product, along with smaller amounts of the para-isomer. The reactive species is dichlorocarbene (:CCl₂) generated in situ from CHCl₃ and base, which undergoes electrophilic insertion into the activated phenoxide."
+    },
+    "svg": {
+      "reactants": "name_rxns/reimer-tiemann_reactants.svg",
+      "product": "name_rxns/reimer-tiemann_products.svg"
+    }
+  },
+  {
+    "id": "ritter",
+    "name": "Ritter Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Alkene (or Alcohol / tert-Alkyl System) + Nitrile",
+      "product_label": "N-Substituted Amide",
+      "conditions": "H₂SO₄ (conc.) or other strong acid; propionitrile, acetonitrile, etc.",
+      "display_label": "R₂C=CH₂ + RCN + H⁺ → R₂CH-NH-CO-R (amide)"
+    },
+    "metadata": {
+      "mechanism": "Acid generates stable carbocation (or protonates alcohol → carbocation); carbocation captured by nitrile nitrogen to give nitrilium ion; addition of water; tautomerisation to amide",
+      "retrosynthetic_cue": "N-unsubstituted amide from tert-alkyl system + nitrile + acid",
+      "tags": [
+        "amide synthesis",
+        "carbocation",
+        "nitrile",
+        "acid catalysis",
+        "N-substituted amide"
+      ],
+      "summary": "A stable carbocation (generated from an alkene by acid, or from a tertiary or secondary alcohol under acidic conditions) reacts with a nitrile to give, after capture by water and tautomerisation, an N-substituted amide. The reaction is limited to substrates that form stable carbocations."
+    },
+    "svg": {
+      "reactants": "name_rxns/ritter_reactants.svg",
+      "product": "name_rxns/ritter_products.svg"
+    }
+  },
+  {
+    "id": "robinson-annulation",
+    "name": "Robinson Annulation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Enolate (Ketone) + Methyl Vinyl Ketone (or equivalent Michael Acceptor)",
+      "product_label": "2-Cyclohexenone (Δ²-cyclohexenone)",
+      "conditions": "NaOH, EtOH, Δ; or KOH, H₂O; or in two steps (Michael then intramolecular aldol)",
+      "display_label": "Ketone + MVK → 2-cyclohexenone (fused ring)"
+    },
+    "metadata": {
+      "mechanism": "Michael addition of enolate to enone gives 1,5-diketone intermediate; intramolecular aldol condensation with dehydration gives cyclohexenone ring",
+      "retrosynthetic_cue": "Cyclohex-2-enone; disconnect to Michael acceptor + donor (retro-Michael + retro-aldol)",
+      "tags": [
+        "annulation",
+        "ring formation",
+        "Michael addition",
+        "aldol condensation",
+        "cyclohexenone",
+        "domino reaction"
+      ],
+      "summary": "A tandem Michael addition followed by an intramolecular aldol condensation: an enolate adds 1,4 to methyl vinyl ketone (or equivalent) giving a 1,5-diketone, which then undergoes base-catalysed intramolecular aldol condensation with dehydration to form a six-membered α,β-enone ring. It is one of the most important methods for constructing six-membered carbocycles in steroid and terpene synthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/robinson-annulation_reactants.svg",
+      "product": "name_rxns/robinson-annulation_products.svg"
+    }
+  },
+  {
+    "id": "sandmeyer",
+    "name": "Sandmeyer Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aryl Diazonium Salt + Cu(I) Salt (CuCl, CuBr, or CuCN)",
+      "product_label": "Aryl Halide or Aryl Nitrile",
+      "conditions": "CuCl/HCl (→ ArCl), CuBr/HBr (→ ArBr), CuCN/KCN (→ ArCN); 0–60 °C aqueous",
+      "display_label": "ArN₂⁺ + CuX → Ar-X + N₂ + Cu²⁺"
+    },
+    "metadata": {
+      "mechanism": "Radical mechanism: Cu(I) reduces diazonium by SET to give aryl radical + N₂; aryl radical reacts with CuX₂ (formed from Cu(I) + X•) to give Ar–X and regenerate Cu(I)",
+      "retrosynthetic_cue": "Aryl halide or aryl nitrile; disconnect from aniline via diazotisation",
+      "tags": [
+        "diazonium",
+        "radical",
+        "copper catalysis",
+        "aryl halide",
+        "nitrile synthesis"
+      ],
+      "summary": "Aryl diazonium salts react with copper(I) salts (CuCl, CuBr, CuCN) to give aryl chlorides, bromides, or nitriles via a radical mechanism (single electron transfer from Cu(I)). The reaction is the main synthetic route from aromatic amines to aryl halides and nitriles that cannot be prepared by direct electrophilic halogenation."
+    },
+    "svg": {
+      "reactants": "name_rxns/sandmeyer_reactants.svg",
+      "product": "name_rxns/sandmeyer_products.svg"
+    }
+  },
+  {
+    "id": "schmidt",
+    "name": "Schmidt Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Carboxylic Acid (or Ketone / Aldehyde) + Hydrazoic Acid (HN₃)",
+      "product_label": "Primary Amine (from acid) / Amide or Lactam (from ketone) / Nitrile (from aldehyde) / Substituted imine (from olefin) / Ketimine (from tertiary alcohol)",
+      "conditions": "HN₃ (from NaN₃ + H₂SO₄), conc. H₂SO₄; 0 °C to rt",
+      "display_label": "RCOOH + HN₃ → RNH₂ + CO₂; or R-CO-R' + HN₃ → amide/lactam"
+    },
+    "metadata": {
+      "mechanism": "Acid protonates HN₃; azide attacks protonated carbonyl; 1,2-migration of more electron-rich group from C to N with loss of N₂; trapping by water gives amine (from acid) or amide/lactam (from ketone)",
+      "retrosynthetic_cue": "Primary amine or amide from carboxylic acid or ketone; ring expansion of cyclic ketones to lactams",
+      "tags": [
+        "rearrangement",
+        "1,2-migration",
+        "ring expansion",
+        "azide",
+        "lactam synthesis",
+        "amine synthesis"
+      ],
+      "summary": "Carboxylic acids, ketones, and aldehydes react with hydrazoic acid (HN₃) under strong acid conditions. With carboxylic acids, the product is a primary amine (after CO₂ loss, as in Curtius). With cyclic ketones, ring expansion to lactams occurs (analogous to Beckmann); nitriles are obtained from aldehydes."
+    },
+    "svg": {
+      "reactants": "name_rxns/schmidt_reactants.svg",
+      "product": "name_rxns/schmidt_products.svg"
+    }
+  },
+  {
+    "id": "schotten-baumann",
+    "name": "Schotten–Baumann Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Acyl Chloride (or Anhydride) + Amine (or Alcohol)",
+      "product_label": "Amide (or Ester)",
+      "conditions": "Aqueous NaOH (or Na₂CO₃) as base, biphasic (water/organic solvent), 0 °C to rt",
+      "display_label": "RCOCl + H₂NR' + NaOH → RCONHR' + NaCl + H₂O"
+    },
+    "metadata": {
+      "mechanism": "Nucleophilic acyl substitution: amine (or alcohol) attacks acyl chloride; base scavenges HCl to prevent salt formation with amine nucleophile",
+      "retrosynthetic_cue": "Amide or ester under mild aqueous conditions",
+      "tags": [
+        "acylation",
+        "amide synthesis",
+        "ester synthesis",
+        "nucleophilic acyl substitution",
+        "biphasic"
+      ],
+      "summary": "Acyl chlorides (or anhydrides) are reacted with amines (or alcohols) in the presence of aqueous base (NaOH or Na₂CO₃) in a biphasic system. The base neutralises HCl as it forms, preventing protonation of the amine nucleophile. Widely used in industrial and preparative acylation."
+    },
+    "svg": {
+      "reactants": "name_rxns/schotten-baumann_reactants.svg",
+      "product": "name_rxns/schotten-baumann_products.svg"
+    }
+  },
+  {
+    "id": "sharpless-epoxidation",
+    "name": "Sharpless Epoxidation",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Allylic Alcohol + TBHP + Ti(OiPr)₄ + Tartrate Ester",
+      "product_label": "Chiral Epoxy Alcohol (2,3-epoxyalcohol)",
+      "conditions": "Ti(OiPr)₄ (cat. or stoichiometric), TBHP (oxid.), L-(+)- or D-(−)-diethyl tartrate, CH₂Cl₂, −20 °C, 4Å mol sieves",
+      "display_label": "Allylic alcohol + TBHP + DET/L-tartrate → (2R,3S)- or (2S,3R)-epoxy alcohol"
+    },
+    "metadata": {
+      "mechanism": "Ti(IV) coordinates allylic alcohol and tartrate to form a chiral titanium complex; peroxide coordinated to Ti delivers oxygen to one face of the alkene (predictable by Sharpless mnemonic); epoxide forms with high enantioselectivity",
+      "retrosynthetic_cue": "2,3-Epoxyalcohol with defined absolute configuration; Sharpless mnemonic predicts face selectivity",
+      "tags": [
+        "asymmetric synthesis",
+        "epoxidation",
+        "titanium",
+        "chiral catalyst",
+        "tartrate",
+        "allylic alcohol",
+        "enantioselective"
+      ],
+      "summary": "Allylic alcohols are epoxidised enantioselectively using tert-butyl hydroperoxide (TBHP), titanium(IV) isopropoxide, and a chiral dialkyl tartrate. The face selectivity is predicted by the Sharpless mnemonic: L-(+)-tartrate (natural) delivers oxygen from the bottom face; D-(−)-tartrate (unnatural) from the top face, when the allylic alcohol is drawn with the OH at lower right in the standard 2D representation."
+    },
+    "svg": {
+      "reactants": "name_rxns/sharpless-epoxidation_reactants.svg",
+      "product": "name_rxns/sharpless-epoxidation_products.svg"
+    }
+  },
+  {
+    "id": "sonogashira",
+    "name": "Sonogashira Cross-Coupling",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Terminal Alkyne + Aryl (or Vinyl) Halide",
+      "product_label": "Internal Alkyne (arylacetylene or enyne)",
+      "conditions": "Pd(PPh₃)₂Cl₂ or Pd(PPh₃)₄, CuI (co-catalyst), amine base (Et₃N, iPr₂NH), rt to 60 °C",
+      "display_label": "R-C≡C-H + Ar-X → R-C≡C-Ar + HX"
+    },
+    "metadata": {
+      "mechanism": "Pd(0)/Pd(II) catalytic cycle: oxidative addition of Ar–X to Pd(0); transmetalation with copper acetylide (formed from terminal alkyne + CuI + base); reductive elimination",
+      "retrosynthetic_cue": "Aryl or vinyl acetylene; C(sp)–C(sp²) bond",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "alkyne",
+        "palladium catalysis",
+        "copper co-catalyst",
+        "acetylide"
+      ],
+      "summary": "Terminal alkynes couple with aryl or vinyl halides under palladium/copper dual catalysis in the presence of an amine base to give internal alkynes. The copper(I) iodide co-catalyst activates the terminal alkyne as a copper acetylide for transmetalation with the aryl–Pd(II) complex."
+    },
+    "svg": {
+      "reactants": "name_rxns/sonogashira_reactants.svg",
+      "product": "name_rxns/sonogashira_products.svg"
+    }
+  },
+  {
+    "id": "staudinger-reduction",
+    "name": "Staudinger Reduction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Organic Azide + Phosphine (PPh₃) + H₂O",
+      "product_label": "Primary Amine + Triphenylphosphine Oxide",
+      "conditions": "PPh₃ (1–1.2 equiv.), THF or Et₂O, rt; then aqueous workup (H₂O hydrolyses iminophosphorane)",
+      "display_label": "R-N₃ + PPh₃ + H₂O → R-NH₂ + Ph₃P=O + N₂"
+    },
+    "metadata": {
+      "mechanism": "PPh₃ attacks the terminal (γ) nitrogen of the organic azide via nucleophilic addition to give a phosphazide intermediate; loss of N₂ (retro-[2+2] cycloreversion of the four-membered ring, or concerted from the open-chain phosphazide) gives the iminophosphorane (Ph₃P=NR); aqueous hydrolysis of the P=N bond gives the primary amine and triphenylphosphine oxide",
+      "retrosynthetic_cue": "Primary amine from organic azide (itself from alkyl halide + NaN₃ or via Mitsunobu with HN₃); mild, chemoselective reduction compatible with many functional groups",
+      "tags": [
+        "azide reduction",
+        "primary amine synthesis",
+        "phosphine",
+        "iminophosphorane",
+        "chemoselective reduction",
+        "N₂ extrusion"
+      ],
+      "summary": "Organic azides are reduced to primary amines by treatment with a trialkyl- or triarylphosphine (typically PPh₃) followed by aqueous hydrolysis. The reaction proceeds via a phosphazide intermediate that loses N₂ to give an iminophosphorane (Ph₃P=NR); hydrolysis of the P=N bond then delivers the primary amine and Ph₃P=O. The reduction is mild, highly chemoselective, and tolerant of most other functional groups."
+    },
+    "svg": {
+      "reactants": "name_rxns/staudinger-reduction_reactants.svg",
+      "product": "name_rxns/staudinger-reduction_products.svg"
+    }
+  },
+  {
+    "id": "stille",
+    "name": "Stille Cross-Coupling",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Organostannane (RSnBu₃) + Aryl (or Vinyl) Halide (or Triflate)",
+      "product_label": "Cross-coupled Product",
+      "conditions": "Pd₂(dba)₃ or Pd(PPh₃)₄, AsPh₃ or P(furyl)₃ (ligand), DMF or THF, 50–80 °C",
+      "display_label": "R-SnBu₃ + Ar-X → R-Ar + Bu₃Sn-X"
+    },
+    "metadata": {
+      "mechanism": "Pd(0)/Pd(II) catalytic cycle: oxidative addition of Ar–X; transmetalation with organostannane (cyclic SE2 or open chain); reductive elimination to give C–C bond",
+      "retrosynthetic_cue": "C–C bond between sp and sp² or two sp² carbons; tolerated by many FGs; useful with vinyl stannanes",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "organostannane",
+        "palladium catalysis",
+        "transmetalation"
+      ],
+      "summary": "Organostannane reagents couple with aryl or vinyl halides (and triflates) under palladium catalysis. The Stille coupling offers excellent functional group tolerance and works well with vinyl and aryl stannanes. A significant drawback is the toxicity of organotin by-products."
+    },
+    "svg": {
+      "reactants": "name_rxns/stille_reactants.svg",
+      "product": "name_rxns/stille_products.svg"
+    }
+  },
+  {
+    "id": "strecker",
+    "name": "Strecker Amino Acid Synthesis",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aldehyde (or Ketone) + NH₃ (or Amine) + HCN",
+      "product_label": "α-Amino Nitrile → α-Amino Acid (after hydrolysis)",
+      "conditions": "Step 1: NH₄CN (aq.) or KCN/NH₄Cl; Step 2: HCl/H₂O, Δ (hydrolysis of nitrile)",
+      "display_label": "RCHO + NH₃ + HCN → RCH(NH₂)CN → RCH(NH₂)COOH"
+    },
+    "metadata": {
+      "mechanism": "Condensation of aldehyde with ammonia (or amine) gives imine (or iminium); nucleophilic addition of cyanide gives α-aminonitrile; hydrolysis of nitrile gives α-amino acid",
+      "retrosynthetic_cue": "α-Amino acid; aldehyde precursor with one fewer carbon",
+      "tags": [
+        "amino acid synthesis",
+        "cyanide",
+        "imine",
+        "nucleophilic addition",
+        "multicomponent"
+      ],
+      "summary": "Aldehydes react with ammonia (or amines) and hydrogen cyanide (or equivalent) to give α-aminonitriles, which are hydrolysed to α-amino acids. One of the oldest multicomponent reactions, it proceeds via an imine (Schiff base) intermediate that is attacked by cyanide."
+    },
+    "svg": {
+      "reactants": "name_rxns/strecker_reactants.svg",
+      "product": "name_rxns/strecker_products.svg"
+    }
+  },
+  {
+    "id": "suzuki",
+    "name": "Suzuki Cross-Coupling",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Arylboronic Acid (or Ester) + Aryl (or Vinyl) Halide",
+      "product_label": "Biaryl (or Aryl-vinyl product)",
+      "conditions": "Pd(PPh₃)₄ or Pd(dppf)Cl₂, base (K₂CO₃, Cs₂CO₃, or NaOH), EtOH/toluene or DMF/H₂O, 60–80 °C",
+      "display_label": "Ar-B(OH)₂ + Ar'-X → Ar-Ar' + HX"
+    },
+    "metadata": {
+      "mechanism": "Pd(0)/Pd(II) catalytic cycle: oxidative addition; transmetalation (base activates boronate by coordination to boron); reductive elimination",
+      "retrosynthetic_cue": "Biaryl bond; Suzuki disconnection to boronic acid + halide",
+      "tags": [
+        "cross-coupling",
+        "C–C bond formation",
+        "boronic acid",
+        "palladium catalysis",
+        "biaryl synthesis"
+      ],
+      "summary": "Aryl (or vinyl) boronic acids (or boronate esters) couple with aryl halides (or triflates) under palladium catalysis and base to give biaryls or aryl-vinyl products (Suzuki–Miyaura coupling). The reaction is the most widely used cross-coupling in pharmaceutical synthesis due to the stability and low toxicity of organoboron reagents and excellent functional group tolerance."
+    },
+    "svg": {
+      "reactants": "name_rxns/suzuki_reactants.svg",
+      "product": "name_rxns/suzuki_products.svg"
+    }
+  },
+  {
+    "id": "swern",
+    "name": "Swern Oxidation",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Primary or Secondary Alcohol",
+      "product_label": "Aldehyde or Ketone",
+      "conditions": "DMSO, (COCl)₂ (oxalyl chloride), CH₂Cl₂, −78 °C; then Et₃N",
+      "display_label": "R-CH(OH)-R' → R-CO-R'"
+    },
+    "metadata": {
+      "mechanism": "Oxalyl chloride activates DMSO to give chlorosulfonium species + CO₂ + CO; alcohol reacts with chlorosulfonium to give alkoxysulfonium; Et₃N deprotonates to give ylide intermediate; syn-elimination gives carbonyl + Me₂S",
+      "retrosynthetic_cue": "Aldehyde or ketone from primary or secondary alcohol under mild conditions",
+      "tags": [
+        "oxidation",
+        "activated DMSO",
+        "alcohol oxidation",
+        "mild conditions",
+        "low temperature"
+      ],
+      "summary": "Primary and secondary alcohols are oxidised to aldehydes and ketones at −78 °C using DMSO activated by oxalyl chloride, followed by triethylamine. The reaction is mild (no heavy metals), selective, and proceeds rapidly at low temperature. Dimethyl sulfide (malodorous) is a by-product."
+    },
+    "svg": {
+      "reactants": "name_rxns/swern_reactants.svg",
+      "product": "name_rxns/swern_products.svg"
+    }
+  },
+  {
+    "id": "ullmann",
+    "name": "Ullmann Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aryl Halide (2 equiv.) + Copper",
+      "product_label": "Symmetrical Biaryl (classical) or Aryl Ether / Arylamine (Ullmann condensation)",
+      "conditions": "Cu (powder), DMF or quinoline, 150–250 °C (classical); or Cu(I)/Cu(II) with ligand at lower T (modern)",
+      "display_label": "2 Ar-X + Cu → Ar-Ar + CuX₂ (classical)"
+    },
+    "metadata": {
+      "mechanism": "Oxidative addition of aryl halide to Cu(I); transmetalation with second aryl halide; reductive elimination to give biaryl; or radical mechanism in some variants",
+      "retrosynthetic_cue": "Symmetrical biaryl (classical); diaryl ether or diarylamine (Ullmann condensation)",
+      "tags": [
+        "biaryl synthesis",
+        "copper",
+        "C–C bond formation",
+        "C–O bond formation",
+        "C–N bond formation"
+      ],
+      "summary": "The classical Ullmann reaction couples two aryl halides using copper metal at high temperature to give a symmetrical biaryl. The related Ullmann condensation forms diaryl ethers (aryl + phenol + CuO base) or diarylamines. Modern copper-catalysed variants operate at lower temperatures using ancillary ligands."
+    },
+    "svg": {
+      "reactants": "name_rxns/ullmann_reactants.svg",
+      "product": "name_rxns/ullmann_products.svg"
+    }
+  },
+  {
+    "id": "vilsmeier-haack",
+    "name": "Vilsmeier–Haack Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Activated Arene (e.g., aniline, phenol, pyrrole) + DMF + POCl₃",
+      "product_label": "Aryl Aldehyde (formylation product)",
+      "conditions": "DMF, POCl₃, 0 °C (mixing) then Δ (~60–80 °C); aqueous workup",
+      "display_label": "Ar-H + DMF/POCl₃ → Ar-CHO"
+    },
+    "metadata": {
+      "mechanism": "POCl₃ activates DMF to form the Vilsmeier reagent (chloroiminium ion); electrophilic aromatic substitution on activated arene; hydrolysis of iminium on workup gives aldehyde",
+      "retrosynthetic_cue": "Aryl aldehyde on activated (electron-rich) arene; formylation",
+      "tags": [
+        "formylation",
+        "electrophilic aromatic substitution",
+        "iminium",
+        "DMF",
+        "POCl₃"
+      ],
+      "summary": "Electron-rich arenes (anilines, phenols, pyrroles, furans, indoles) are formylated using DMF and phosphoryl chloride (POCl₃) to give aryl aldehydes. The electrophilic species is a chloroiminium ion (Vilsmeier reagent) formed from the DMF–POCl₃ adduct; hydrolysis on aqueous workup reveals the aldehyde."
+    },
+    "svg": {
+      "reactants": "name_rxns/vilsmeier-haack_reactants.svg",
+      "product": "name_rxns/vilsmeier-haack_products.svg"
+    }
+  },
+  {
+    "id": "wagner-meerwein",
+    "name": "Wagner–Meerwein Rearrangement",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Substrate Capable of Generating a Carbocation (via solvolysis, protonation, etc.), e.g. an alcohol",
+      "product_label": "Skeletal Rearrangement Product (via 1,2-alkyl or 1,2-hydride shift), e.g. an olefin",
+      "conditions": "Acid (H⁺), heat, or solvolysis (e.g., AcOH); Lewis acid",
+      "display_label": "R₃C⁺ → (1,2-shift) → isomeric R₃C⁺ → product"
+    },
+    "metadata": {
+      "mechanism": "Carbocation formation; 1,2-alkyl or 1,2-hydride migration from adjacent carbon to electron-deficient centre; new carbocation (often more stable); trapping by nucleophile or elimination",
+      "retrosynthetic_cue": "Skeletal rearrangement in carbocation chemistry; norbornyl-type and terpenoid rearrangements",
+      "tags": [
+        "rearrangement",
+        "carbocation",
+        "1,2-shift",
+        "hydride migration",
+        "alkyl migration"
+      ],
+      "summary": "A class of carbocation rearrangements involving 1,2-shifts of hydrogen or alkyl groups to an adjacent carbocation centre, producing a new carbocation that may be more stable. Particularly common in alicyclic, terpenoid, and norbornyl systems. The rearrangements underlie many observations in solvolysis chemistry and natural product biosynthesis."
+    },
+    "svg": {
+      "reactants": "name_rxns/wagner-meerwein_reactants.svg",
+      "product": "name_rxns/wagner-meerwein_products.svg"
+    }
+  },
+  {
+    "id": "williamson",
+    "name": "Williamson Ether Synthesis",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Alkoxide + Primary Alkyl Halide (or Tosylate)",
+      "product_label": "Ether",
+      "conditions": "NaOH or K₂CO₃ (to form alkoxide), polar aprotic solvent (DMF, DMSO, acetone), rt to 60 °C",
+      "display_label": "R-O⁻ + R'-X → R-O-R' + X⁻"
+    },
+    "metadata": {
+      "mechanism": "SN2: nucleophilic alkoxide attacks the less hindered (primary) alkyl halide from the back side; inversion at the electrophilic carbon",
+      "retrosynthetic_cue": "Ether; disconnect C–O bond to alkoxide + alkyl halide (use less hindered halide for SN2)",
+      "tags": [
+        "SN2",
+        "ether synthesis",
+        "alkoxide",
+        "C–O bond formation",
+        "nucleophilic substitution"
+      ],
+      "summary": "An alkoxide (formed from an alcohol and base) reacts with a primary alkyl halide (or tosylate) by SN2 to give an ether. Secondary and tertiary halides are inappropriate electrophiles (E2 competing with SN2). One of the most widely used methods for ether synthesis in retrosynthetic analysis."
+    },
+    "svg": {
+      "reactants": "name_rxns/williamson_reactants.svg",
+      "product": "name_rxns/williamson_products.svg"
+    }
+  },
+  {
+    "id": "wittig",
+    "name": "Wittig Reaction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Phosphonium Ylide + Aldehyde (or Ketone)",
+      "product_label": "Alkene (olefin) + Triphenylphosphine Oxide",
+      "conditions": "Non-stabilised ylide (n-BuLi in THF, −78 °C) → Z-alkene; stabilised ylide (Ph₃P=CHCO₂Et, no base) → E-alkene; rt to Δ",
+      "display_label": "Ph₃P=CH-R + R'CHO → R-CH=CH-R' + Ph₃P=O"
+    },
+    "metadata": {
+      "mechanism": "[2+2] cycloaddition of ylide with carbonyl gives oxaphosphetane; retro-[2+2] (cycloreversion) gives alkene and phosphine oxide; concerted mechanism supported by experimental evidence",
+      "retrosynthetic_cue": "Alkene; Wittig disconnection splits C=C into C=O (aldehyde/ketone) + ylide (from R-CHO retron)",
+      "tags": [
+        "alkene synthesis",
+        "C=C bond formation",
+        "ylide",
+        "phosphorus",
+        "stereoselectivity",
+        "carbonyl olefination"
+      ],
+      "summary": "Phosphonium ylides (formed from phosphonium salts and strong base) react with aldehydes or ketones to give alkenes and triphenylphosphine oxide via an oxaphosphetane intermediate. Non-stabilised ylides (alkyl) give predominantly Z-alkenes; stabilised ylides (electron-withdrawing substituents) give predominantly E-alkenes. The Horner–Wadsworth–Emmons modification uses phosphonate ester-stabilised carbanions for improved E-selectivity."
+    },
+    "svg": {
+      "reactants": "name_rxns/wittig_reactants.svg",
+      "product": "name_rxns/wittig_products.svg"
+    }
+  },
+  {
+    "id": "wolff-kishner",
+    "name": "Wolff–Kishner Reduction",
+    "difficulty": 2,
+    "template": {
+      "reactants_label": "Aldehyde or Ketone",
+      "product_label": "Alkane (methylene) + N₂",
+      "conditions": "N₂H₄ (hydrazine), KOH (excess), ethylene glycol (high boiling solvent), Δ (150–200 °C); or Huang Minlon modification",
+      "display_label": "R-CO-R' + N₂H₄ + KOH → R-CH₂-R' + N₂ + H₂O"
+    },
+    "metadata": {
+      "mechanism": "Condensation of hydrazine with carbonyl gives hydrazone; base deprotonates hydrazone NH; tautomerisation to another anion; protonation and loss of N₂ give carbanion; protonation gives alkane",
+      "retrosynthetic_cue": "Methylene group from carbonyl; complement to Clemmensen (basic vs acidic conditions)",
+      "tags": [
+        "reduction",
+        "carbonyl reduction",
+        "deoxygenation",
+        "hydrazone",
+        "base conditions"
+      ],
+      "summary": "Aldehydes and ketones are reduced to the corresponding methylene compounds (alkanes) using hydrazine and base (KOH) at high temperature. The mechanism proceeds via a hydrazone intermediate, which loses N₂ under basic conditions. Complementary to Clemmensen reduction (which uses acidic conditions). The Huang Minlon modification uses excess hydrazine and a high-boiling solvent."
+    },
+    "svg": {
+      "reactants": "name_rxns/wolff-kishner_reactants.svg",
+      "product": "name_rxns/wolff-kishner_products.svg"
+    }
+  },
+  {
+    "id": "wolff-rearrangement",
+    "name": "Wolff Rearrangement",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "α-Diazoketone",
+      "product_label": "Ketene",
+      "conditions": "Δ (thermolysis) or hν (photolysis), or Ag₂O catalyst; often in the presence of water (→ carboxylic acid), alcohol (→ ester), or amine (→ amide) — Arndt–Eistert synthesis",
+      "display_label": "R-CO-CHN₂ → R-CH=C=O + N₂"
+    },
+    "metadata": {
+      "mechanism": "Loss of N₂ from α-diazoketone generates α-ketocarbene (or free carbene); 1,2-shift of R from carbonyl carbon to carbene gives ketene; ketene trapped by nucleophile",
+      "retrosynthetic_cue": "Ketene or homologated carboxylic acid (Arndt–Eistert); carboxylic acid homologation by one carbon",
+      "tags": [
+        "rearrangement",
+        "1,2-migration",
+        "carbene",
+        "ketene",
+        "α-diazoketone",
+        "Arndt–Eistert"
+      ],
+      "summary": "α-Diazoketones undergo thermolytic or photolytic loss of N₂ to give a reactive ketocarbene (or carbene intermediate), which rearranges by 1,2-shift to give a ketene. In the Arndt–Eistert synthesis, the ketene is trapped with water (or alcohol) to give a carboxylic acid (or ester) homologated by one carbon compared to the starting material."
+    },
+    "svg": {
+      "reactants": "name_rxns/wolff-rearrangement_reactants.svg",
+      "product": "name_rxns/wolff-rearrangement_products.svg"
+    }
+  },
+  {
+    "id": "wurtz",
+    "name": "Wurtz Reaction",
+    "difficulty": 1,
+    "template": {
+      "reactants_label": "Alkyl Halide (2 equiv.) + Sodium Metal",
+      "product_label": "Symmetrical Alkane (doubled carbon chain)",
+      "conditions": "Na metal (excess), dry Et₂O, reflux",
+      "display_label": "2 R-X + 2 Na → R-R + 2 NaX"
+    },
+    "metadata": {
+      "mechanism": "Na reduces alkyl halide to give alkyl radical (or carbanion); coupling of two radicals (or SN2 of organosodum on alkyl halide) gives alkane",
+      "retrosynthetic_cue": "Symmetrical alkane; limited to primary alkyl halides to avoid β-elimination",
+      "tags": [
+        "C–C bond formation",
+        "reductive coupling",
+        "sodium",
+        "alkane synthesis",
+        "homologation"
+      ],
+      "summary": "Two molecules of an alkyl halide react with sodium metal to give a symmetrical alkane. The reaction is limited in scope (only useful for symmetrical alkanes; otherwise complex mixtures) and to primary halides (secondary/tertiary give predominantly elimination products)."
+    },
+    "svg": {
+      "reactants": "name_rxns/wurtz_reactants.svg",
+      "product": "name_rxns/wurtz_products.svg"
+    }
+  },
+  {
+    "id": "yamaguchi",
+    "name": "Yamaguchi Esterification",
+    "difficulty": 3,
+    "template": {
+      "reactants_label": "Carboxylic Acid + Alcohol + 2,4,6-Trichlorobenzoyl Chloride (TCBC) + DMAP",
+      "product_label": "Ester (especially macrolactones)",
+      "conditions": "TCBC (1.2 equiv.), Et₃N, THF, 0 °C to rt; then addition of alcohol + DMAP (cat.); rt",
+      "display_label": "RCOOH + R'OH + TCBC/Et₃N/DMAP → RCOOR'"
+    },
+    "metadata": {
+      "mechanism": "TCBC and Et₃N convert carboxylic acid to a mixed anhydride with 2,4,6-trichlorobenzoic acid; DMAP activates the anhydride toward nucleophilic attack by the alcohol (acyl transfer via DMAP intermediate); ester forms with loss of the trichlorobenzoate",
+      "retrosynthetic_cue": "Macrolactone or sterically hindered ester; mixed anhydride pathway",
+      "tags": [
+        "esterification",
+        "macrolactonisation",
+        "mixed anhydride",
+        "DMAP",
+        "TCBC",
+        "natural product synthesis"
+      ],
+      "summary": "Carboxylic acids are converted to mixed anhydrides using 2,4,6-trichlorobenzoyl chloride (TCBC) and Et₃N; the mixed anhydride is then acylated onto an alcohol in the presence of DMAP to give the ester. The method is especially valuable for macrolactonisation in natural product synthesis due to the high electrophilicity of the trichlorobenzoate-derived anhydride."
+    },
+    "svg": {
+      "reactants": "name_rxns/yamaguchi_reactants.svg",
+      "product": "name_rxns/yamaguchi_products.svg"
+    }
+  }
+]

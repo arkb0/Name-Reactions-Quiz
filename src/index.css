@@ -1,0 +1,84 @@
+@import "tailwindcss"; /* Tailwind 4.x */
+
+@theme {
+  /* Agrarian colours */
+  --color-agrarian-blue: #403F84;   /* Dark Blue */
+  --color-agrarian-sky: #2F9FD9;    /* Sky Blue */
+  --color-agrarian-yellow: #F8D727; /* Golden Yellow */
+  --color-agrarian-green: #005C45;  /* Dark Green */
+
+  /* ── Lab Bench Theme ── */
+  --color-bench-bg:      #f5f0e8; /* aged parchment */
+  --color-bench-surface: #faf7f2; /* lighter parchment for cards */
+  --color-bench-ruled:   #e8e0d0; /* ruled-line colour */
+  --color-bench-ink:     #1a1a2e; /* near-black ink */
+  --color-bench-ink-mid: #4a4a6a; /* mid ink */
+  --color-bench-ink-faint:#9a96b0; /* faint ink */
+
+  --color-bench-plasma:  #5b21b6; /* deep violet — primary */
+  --color-bench-ion:     #0e7490; /* deep cyan — secondary */
+  --color-bench-acid:    #166534; /* deep green — correct */
+  --color-bench-burn:    #991b1b; /* deep red — wrong */
+  --color-bench-amber:   #92400e; /* deep amber — conditions */
+
+  --color-bench-vial-idle:    #ede9fe; /* violet tint for idle vials */
+  --color-bench-vial-correct: #dcfce7; /* green tint */
+  --color-bench-vial-wrong:   #fee2e2; /* red tint */
+  --color-bench-vial-reveal:  #d1fae5; /* lighter green */
+}
+
+/* index.css */
+@media (hover: none) {
+  /* Only target the "idle" state hover, not the "correct/wrong" states */
+  button.border-agrarian-blue\/25:hover {
+    background-color: white !important;
+    border-color: var(--color-agrarian-blue)/25 !important; /* Keep original border */
+    box-shadow: none !important;
+  }
+}
+
+/* Ruled paper lines on the bench surface */
+.bench-ruled {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 27px,
+    var(--color-bench-ruled) 27px,
+    var(--color-bench-ruled) 28px
+  );
+}
+
+/* Vial shape — tall with rounded bottom */
+.vial-shape {
+  clip-path: inset(0 0 0 0 round 4px 4px 24px 24px);
+}
+
+/* Slide-up drawer animation */
+@keyframes slideUp {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+.drawer-enter {
+  animation: slideUp 0.35s cubic-bezier(0.32, 0.72, 0, 1) forwards;
+}
+
+/* Stamp animation */
+@keyframes stamp {
+  0%   { transform: scale(2.5) rotate(-8deg); opacity: 0; }
+  60%  { transform: scale(0.92) rotate(2deg);  opacity: 1; }
+  100% { transform: scale(1)    rotate(-3deg); opacity: 1; }
+}
+.stamp-drop {
+  animation: stamp 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Monospace for lab-feel numbers */
+.font-lab {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Typewriter text */
+.font-typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.02em;
+}
