@@ -15,9 +15,9 @@ jobs:
           fetch-depth: 0 # Necessary for subtree splits
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4  # Use v4 for better compatibility
         with:
-          node-version: '18'
+          node-version: '22'        # This forces the cloud runner to use Node 22
 
       - name: Build and Deploy
         run: |
