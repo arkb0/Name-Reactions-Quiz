@@ -1,18 +1,43 @@
-name: Build and Deploy Vue Application to Github Pages
-on: 
+name: Deploy to Pages
+
+on:
   push:
     branches:
       - main
 
 jobs:
-  build_deploy_vue:
+  build:
     runs-on: ubuntu-latest
-    name: Build and Deploy Vue
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Deploy-Vue
-      uses: thefrustrateddev/vue-deploy-github-pages@v1.0.0
-      with:
-        username: ${{ github.actor }}
-        reponame: ${{ github.event.repository.name }}
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Necessary for subtree splits
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Build and Deploy
+        run: |
+          # Use the actor (username) who triggered the run for git config
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --global user.name "${{ github.actor }}"
+
+          # Install dependencies
+          npm install
+
+          # Build the project
+          npm run build
+
+          echo 'Deploying to gh-pages...'
+
+          # Force add the dist folder (since it's usually gitignored)
+          git add dist -f
+          git commit -m 'Deploying build from GitHub Action' 
+
+          # The Magic: Split the dist folder into the gh-pages branch and force push
+          git push origin `git subtree split --prefix dist main`:gh-pages --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
