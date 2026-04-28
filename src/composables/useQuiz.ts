@@ -15,7 +15,8 @@ function shuffle<T>(arr: T[]): T[] {
   const a = [...arr]; // 1. Defensive copy (Immutability)
   for (let i = a.length - 1; i > 0; i--) { // 2. Iterate backwards
     const j = Math.floor(Math.random() * (i + 1)); // 3. Pick a random preceding index
-    [a[i], a[j]] = [a[j], a[i]]; // 4. Swap
+    // The "!" tells TS that these specific elements are definitely not undefined
+    [a[i], a[j]] = [a[j]!, a[i]!]; // 4. Swap
   }
   return a as T[];
 }
