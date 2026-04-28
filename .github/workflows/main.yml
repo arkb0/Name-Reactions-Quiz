@@ -44,3 +44,4 @@ jobs:
           git push origin `git subtree split --prefix dist main`:refs/heads/gh-pages --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
