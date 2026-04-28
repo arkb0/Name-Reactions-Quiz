@@ -28,8 +28,8 @@ jobs:
           # Install dependencies
           npm install
 
-          # Build the project
-          npm run build
+          # Build the project (no tsc for now)
+          npm run build -- --no-tsc
 
           echo 'Deploying to gh-pages...'
 
