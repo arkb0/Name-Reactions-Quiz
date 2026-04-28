@@ -17,7 +17,7 @@ function shuffle<T>(arr: T[]): T[] {
     const j = Math.floor(Math.random() * (i + 1)); // 3. Pick a random preceding index
     [a[i], a[j]] = [a[j], a[i]]; // 4. Swap
   }
-  return a;
+  return a as T[];
 }
 
 function buildQuestions(pool: Reaction[], count: number): QuizQuestion[] {
@@ -63,6 +63,7 @@ export function useQuiz() {
   function selectAnswer(optionIndex: number) {
     if (selectedOption.value !== null) return; // already answered
     const q = questions.value[currentIdx.value];
+    if (!q) return; // Guard clause: if q is undefined, stop here.
     const isCorrect = optionIndex === q.correctIndex;
 
     // Build answer state array for the 4 options
@@ -82,6 +83,7 @@ export function useQuiz() {
       wrongAnswers.value = [
         ...wrongAnswers.value,
         {
+          // q is now guaranteed to exist because of the guard clause above
           question: `Q${currentIdx.value + 1}: Identify the product(s) of '${q.reaction.name}'`,
           correct: q.reaction.name,
         },
