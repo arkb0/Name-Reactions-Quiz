@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/baylis-hillman_reactants-BmFqg_S3.svg`;export{e as default};

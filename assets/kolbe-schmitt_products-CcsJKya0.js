@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/kolbe-schmitt_products-D-k8wJxj.svg`;export{e as default};

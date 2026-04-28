@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/bartoli-indole_reactants-DMa2MIcE.svg`;export{e as default};

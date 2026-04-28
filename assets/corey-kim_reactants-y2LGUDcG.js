@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/corey-kim_reactants-D_NQnZmw.svg`;export{e as default};

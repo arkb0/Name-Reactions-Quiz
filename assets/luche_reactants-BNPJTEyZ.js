@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/luche_reactants-BffYSdf8.svg`;export{e as default};

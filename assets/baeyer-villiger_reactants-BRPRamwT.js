@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/baeyer-villiger_reactants-DFaMPzys.svg`;export{e as default};

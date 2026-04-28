@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/eschweiler-clarke_reactants-BiFAsGcf.svg`;export{e as default};

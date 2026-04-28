@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/birch_products-BtnJphSi.svg`;export{e as default};

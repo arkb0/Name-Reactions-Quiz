@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/dakin-west_products-MkMWz2ji.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/dieckmann_products-Dc8rHaV4.svg`;export{e as default};

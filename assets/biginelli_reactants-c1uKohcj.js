@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/biginelli_reactants-31BlVkoC.svg`;export{e as default};

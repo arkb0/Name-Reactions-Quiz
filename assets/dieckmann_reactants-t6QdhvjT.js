@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/dieckmann_reactants-ByLOwLYZ.svg`;export{e as default};

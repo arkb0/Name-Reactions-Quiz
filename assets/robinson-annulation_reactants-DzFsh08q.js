@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/robinson-annulation_reactants-D4sOSd8s.svg`;export{e as default};

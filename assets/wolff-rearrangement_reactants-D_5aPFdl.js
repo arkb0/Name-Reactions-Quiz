@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/wolff-rearrangement_reactants-DTC-aW9I.svg`;export{e as default};

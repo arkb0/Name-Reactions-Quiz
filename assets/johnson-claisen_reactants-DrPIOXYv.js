@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/johnson-claisen_reactants-lXnebkt3.svg`;export{e as default};

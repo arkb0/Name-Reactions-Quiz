@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/henry_reactants-Cw1xkQT2.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/mukaiyama-aldol_reactants-DlFuy2E-.svg`;export{e as default};

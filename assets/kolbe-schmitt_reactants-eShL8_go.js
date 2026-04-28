@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/kolbe-schmitt_reactants-CDnskG0Y.svg`;export{e as default};

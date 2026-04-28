@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/claisen-rearrangement_reactants-rxPqlxQ4.svg`;export{e as default};

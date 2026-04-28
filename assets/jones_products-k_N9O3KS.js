@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/jones_products-Cv7kTdjc.svg`;export{e as default};

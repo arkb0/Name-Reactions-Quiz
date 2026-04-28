@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/stille_reactants-a1phOwUx.svg`;export{e as default};

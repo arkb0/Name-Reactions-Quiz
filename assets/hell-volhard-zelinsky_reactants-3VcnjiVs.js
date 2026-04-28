@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/hell-volhard-zelinsky_reactants-Brv5A0Id.svg`;export{e as default};

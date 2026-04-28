@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/hofmann-rearrangement_reactants-Bwqyw-le.svg`;export{e as default};

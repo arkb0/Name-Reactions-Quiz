@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/friedel-crafts-alkylation_reactants-nF-zLXZz.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/knorr-pyrazole_products-rhQN5PQ9.svg`;export{e as default};

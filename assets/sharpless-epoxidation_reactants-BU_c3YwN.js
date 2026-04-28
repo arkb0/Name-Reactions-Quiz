@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/sharpless-epoxidation_reactants-Dxj3CmBw.svg`;export{e as default};

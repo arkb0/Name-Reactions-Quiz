@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/dakin-west_reactants-CFkb5jac.svg`;export{e as default};

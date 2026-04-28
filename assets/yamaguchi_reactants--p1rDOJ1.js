@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/yamaguchi_reactants-Cnd4pHFo.svg`;export{e as default};

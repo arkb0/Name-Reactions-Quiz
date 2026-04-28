@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/grignard_reactants-CbrseMFc.svg`;export{e as default};

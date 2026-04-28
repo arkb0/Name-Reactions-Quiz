@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/appel_reactants-5x7bGZcj.svg`;export{e as default};

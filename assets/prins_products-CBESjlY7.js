@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/prins_products-JKueKPcI.svg`;export{e as default};

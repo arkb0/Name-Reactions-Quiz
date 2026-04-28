@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/wittig_reactants-Iko3Onrx.svg`;export{e as default};

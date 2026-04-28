@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/knoevenagel_products-CinIqtcU.svg`;export{e as default};

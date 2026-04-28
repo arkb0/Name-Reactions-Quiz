@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/mannich_reactants-BFGFcvMR.svg`;export{e as default};

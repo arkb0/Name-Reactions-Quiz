@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/biginelli_products-Bljf_VQL.svg`;export{e as default};

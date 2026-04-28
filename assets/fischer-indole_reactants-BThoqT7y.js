@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/fischer-indole_reactants-CCMC5BPD.svg`;export{e as default};

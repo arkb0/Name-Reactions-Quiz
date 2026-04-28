@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/claisen-condensation_products-DfDAF0OD.svg`;export{e as default};

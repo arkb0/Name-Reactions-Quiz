@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/prins_reactants-B8RFhtij.svg`;export{e as default};

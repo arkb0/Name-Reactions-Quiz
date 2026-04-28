@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/pauson-khand_products-Uh_ORgQJ.svg`;export{e as default};

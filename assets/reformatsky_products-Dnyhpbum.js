@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/reformatsky_products-ClxVuBgO.svg`;export{e as default};

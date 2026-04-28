@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/fischer-indole_products-BJ3TFW0l.svg`;export{e as default};

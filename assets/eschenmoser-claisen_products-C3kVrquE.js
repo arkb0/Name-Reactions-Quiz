@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/eschenmoser-claisen_products-Cl0YARde.svg`;export{e as default};

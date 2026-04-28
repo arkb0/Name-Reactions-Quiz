@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/knoevenagel_reactants-BWO8DlEM.svg`;export{e as default};

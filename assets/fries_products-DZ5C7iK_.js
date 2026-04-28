@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/fries_products-B26-CW8C.svg`;export{e as default};

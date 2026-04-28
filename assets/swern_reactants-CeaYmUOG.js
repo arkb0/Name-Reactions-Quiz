@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/swern_reactants-lBv1QiqE.svg`;export{e as default};

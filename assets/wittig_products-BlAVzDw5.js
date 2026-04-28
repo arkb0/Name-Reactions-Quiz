@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/wittig_products-Ckw95MJz.svg`;export{e as default};

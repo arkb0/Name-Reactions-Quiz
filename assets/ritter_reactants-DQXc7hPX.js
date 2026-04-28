@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/ritter_reactants-CNh1xcAQ.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/schotten-baumann_reactants-BfUoez3_.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/mannich_products-oYCZej65.svg`;export{e as default};

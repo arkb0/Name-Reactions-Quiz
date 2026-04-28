@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/mitsunobu_reactants-CLvhKswY.svg`;export{e as default};

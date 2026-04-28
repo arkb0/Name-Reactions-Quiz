@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/pictet-spengler_products-CuQPuvOb.svg`;export{e as default};

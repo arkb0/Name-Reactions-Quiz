@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/oppenauer_reactants-CKtSKBZB.svg`;export{e as default};

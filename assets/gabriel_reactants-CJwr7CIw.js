@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/gabriel_reactants-BeuwZxm5.svg`;export{e as default};

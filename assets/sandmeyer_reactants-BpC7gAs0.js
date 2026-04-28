@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/sandmeyer_reactants-UZYsMGzm.svg`;export{e as default};

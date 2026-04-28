@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/claisen-rearrangement_products-C129NYiO.svg`;export{e as default};

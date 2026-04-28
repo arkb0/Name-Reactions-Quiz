@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/eschenmoser-claisen_reactants-DwoNdCD5.svg`;export{e as default};

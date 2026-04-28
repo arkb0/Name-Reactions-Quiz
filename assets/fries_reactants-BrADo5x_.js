@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/fries_reactants-BkLhKGhX.svg`;export{e as default};

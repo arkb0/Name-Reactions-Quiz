@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/heck_reactants-Jf5x-8zK.svg`;export{e as default};

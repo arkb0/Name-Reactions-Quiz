@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/strecker_reactants-D5l8ANeb.svg`;export{e as default};

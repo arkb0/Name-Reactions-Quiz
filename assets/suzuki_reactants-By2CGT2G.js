@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/suzuki_reactants-BFvOFpGV.svg`;export{e as default};

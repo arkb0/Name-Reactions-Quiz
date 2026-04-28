@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/friedel-crafts-acylation_reactants-ifLO5owh.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/perkin_reactants-D78yEKOC.svg`;export{e as default};

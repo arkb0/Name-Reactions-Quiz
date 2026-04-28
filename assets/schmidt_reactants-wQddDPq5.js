@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/schmidt_reactants-uX5o8J7L.svg`;export{e as default};

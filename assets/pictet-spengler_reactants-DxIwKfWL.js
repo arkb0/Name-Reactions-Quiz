@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/pictet-spengler_reactants-D2YT6fAi.svg`;export{e as default};

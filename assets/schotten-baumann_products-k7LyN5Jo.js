@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/schotten-baumann_products-DiXiYA_D.svg`;export{e as default};

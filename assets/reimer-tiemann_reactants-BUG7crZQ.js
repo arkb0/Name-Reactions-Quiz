@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/reimer-tiemann_reactants-DPCBXnzS.svg`;export{e as default};

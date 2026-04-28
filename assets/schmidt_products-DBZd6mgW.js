@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/schmidt_products-CC24qQDI.svg`;export{e as default};

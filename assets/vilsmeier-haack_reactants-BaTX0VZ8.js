@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/vilsmeier-haack_reactants-Bp-JejV8.svg`;export{e as default};

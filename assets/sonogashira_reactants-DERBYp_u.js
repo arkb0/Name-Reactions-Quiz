@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/sonogashira_reactants-DY7n_1-X.svg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/hofmann-elimination_reactants-DzT_gpJX.svg`;export{e as default};

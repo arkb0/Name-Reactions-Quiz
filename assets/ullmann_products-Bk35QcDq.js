@@ -1,0 +1,1 @@
+var e=`/Name-Reactions-Quiz/assets/ullmann_products-DShVBauA.svg`;export{e as default};
